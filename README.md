@@ -1,2 +1,1 @@
-# henrybobeck.com
-personal website
+# readme
