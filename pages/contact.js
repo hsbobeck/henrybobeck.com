@@ -14,6 +14,6 @@ export default function ContactPage() {
 
 export function ContactContent() {
     return (
-        <p>contact page</p>
+        <p className="smalltext mono-font">send all inquiries to <a className="weight-bold" href="mailto:henrybobeck@gmail.com">henrybobeck@gmail.com</a></p >
     )
 }

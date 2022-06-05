@@ -7,8 +7,13 @@
   outline: black dotted 2px;
 }
 
-.space-left {
-  padding-left: 1rem;
+.both-side-padded {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.left-side-padded {
+  padding-left: 0.5rem;
 }
 
 .smalltext {
@@ -27,6 +32,10 @@
 
 .mono-font {
   font-family: JetBrains Mono, monospace;
+}
+
+.black {
+  color: black;
 }
 
 .gray {

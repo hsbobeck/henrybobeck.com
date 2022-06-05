@@ -2,14 +2,23 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import HomeLayout from '../components/homelayout'
 
-export default function VideoContent() {
+export default function VideoPage() {
+    return (
+        <HomeLayout>
+            {VideoContent()}
+        </HomeLayout>
+    )
+}
+
+export function VideoContent() {
     return (
         <>
             <div id="container" className="text-center justify-center">
                 <div className="padded-item">
-                    <div className="hover-outline selection-outline">
-                        <a href="https://www.youtube.com/watch?v=ms3zDK4ekcc" target="_blank" title="FEEL YOURSELF BREATHE">
+                    <a href="https://www.youtube.com/watch?v=ms3zDK4ekcc" target="_blank" title="FEEL YOURSELF BREATHE">
+                        <div className="hover-outline selection-outline">
                             <div>
                                 <Image
                                     priority
@@ -19,13 +28,15 @@ export default function VideoContent() {
                                     alt="FEEL YOURSELF BREATHE"
                                 />
                             </div>
-                            <span className="smalltext weight-bold mono-font">feel yourself breathe</span>
-                        </a>
-                    </div>
+                            <span className="smalltext mono-font">feel yourself breathe</span>
+                        </div>
+                    </a>
+
                 </div>
                 <div className="padded-item">
-                    <div className="hover-outline selection-outline">
-                        <a href="https://www.youtube.com/watch?v=dI8WH1H7Huw" target="_blank" title="buckhorn springs">
+                    <a href="https://www.youtube.com/watch?v=dI8WH1H7Huw" target="_blank" title="buckhorn springs">
+
+                        <div className="hover-outline selection-outline">
                             <div>
                                 <Image
                                     priority
@@ -35,13 +46,13 @@ export default function VideoContent() {
                                     alt="buckhorn springs"
                                 />
                             </div>
-                            <span className="smalltext weight-bold mono-font">buckhorn springs</span>
-                        </a>
-                    </div>
+                            <span className="smalltext mono-font">buckhorn springs</span>
+                        </div>
+                    </a>
                 </div>
                 <div className="padded-item">
-                    <div className="hover-outline selection-outline">
-                        <a href="https://vimeo.com/653522838" target="_blank" title="habitat sartorial f/w classics 2">
+                    <a href="https://vimeo.com/653522838" target="_blank" title="habitat sartorial f/w classics 2">
+                        <div className="hover-outline selection-outline">
                             <div>
                                 <Image
                                     priority
@@ -51,13 +62,13 @@ export default function VideoContent() {
                                     alt="habitat sartorial f/w classics 2"
                                 />
                             </div>
-                            <span className="smalltext weight-bold mono-font">habitat sartorial f/w classics 2</span>
-                        </a>
-                    </div>
+                            <span className="smalltext mono-font">habitat sartorial f/w classics 2</span>
+                        </div>
+                    </a>
                 </div>
                 <div className="padded-item">
-                    <div className="hover-outline selection-outline">
-                        <a href="https://vimeo.com/588980823" target="_blank" title="Habitat Sartorial 1">
+                    <a href="https://vimeo.com/588980823" target="_blank" title="Habitat Sartorial 1">
+                        <div className="hover-outline selection-outline">
                             <div>
                                 <Image
                                     priority
@@ -67,10 +78,9 @@ export default function VideoContent() {
                                     alt="Habitat Sartorial 1"
                                 />
                             </div>
-                            <span className="smalltext weight-bold mono-font">habitat sartorial music summer 2021</span>
-                        </a>
-                    </div>
-
+                            <span className="smalltext mono-font">habitat sartorial music summer 2021</span>
+                        </div>
+                    </a>
                 </div>
 
             </div>

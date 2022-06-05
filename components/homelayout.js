@@ -18,9 +18,9 @@ export default function HomeLayout({ children }) {
                 </div>
                 {/* top right fixed */}
                 <div className="fixed right-8 top-8 smalltext mono-font gray z-30">
-                    <a href="/" className="link-text space-left">video</a>
-                    <a href="/photo" className="link-text space-left">photo</a>
-                    <a href="/contact" className="link-text space-left">contact</a>
+                    <a href="/" className="link-text both-side-padded">video</a>
+                    <a href="/photo" className="link-text both-side-padded">photo</a>
+                    <a href="/contact" className="link-text left-side-padded">contact</a>
                 </div>
 
 
