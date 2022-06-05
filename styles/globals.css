@@ -7,6 +7,10 @@
   outline: black dotted 2px;
 }
 
+.space-left {
+  padding-left: 1rem;
+}
+
 .smalltext {
   font-size: .8125rem;
   line-height: 1.1rem;
@@ -57,6 +61,17 @@
   top: 50%;
 }
 
+.unselectable {
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard */
+}
+
 #container {
   /* establish flex container */
   display: flex;
@@ -67,7 +82,16 @@
   /* center items horizontally, in this case */
   align-items: center;
   height: auto;
-  width: 60%;
+  width: 69%;
+  padding-bottom: 0rem;
+}
+
+#spacer-small {
+  height: 1rem;
+}
+
+#spacer-large {
+  height: 3rem;
 }
 
 .link-text:hover,
