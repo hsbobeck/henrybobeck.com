@@ -17,69 +17,85 @@ export function PhotoContent() {
         <>
             <div id="container" className="text-center justify-center">
                 <div className="padded-item">
-                    <div className="hover-outline selection-outline">
-                        <a href="/" title="1">
+                    <a href="/" title="Arboretum studio film">
+                        <div className="hover-outline selection-outline">
                             <div>
                                 <Image
                                     priority
-                                    src="/images/fyb.jpg"
-                                    width={320}
-                                    height={180}
-                                    alt="1"
+                                    src="/images/arboretum-studio-film/8.jpg"
+                                    width={300}
+                                    height={200}
+                                    alt="Arboretum studio film"
                                 />
                             </div>
-                            <span className="smalltext weight-bold mono-font">1</span>
-                        </a>
-                    </div>
-                </div>
-                <div className="padded-item">
-                    <div className="hover-outline selection-outline">
-                        <a href="/" title="2">
-                            <div>
-                                <Image
-                                    priority
-                                    src="/images/buckhornsprings.jpg"
-                                    width={320}
-                                    height={180}
-                                    alt="2"
-                                />
-                            </div>
-                            <span className="smalltext weight-bold mono-font">2</span>
-                        </a>
-                    </div>
-                </div>
-                <div className="padded-item">
-                    <div className="hover-outline selection-outline">
-                        <a href="/" title="3">
-                            <div>
-                                <Image
-                                    priority
-                                    src="/images/hs2.jpg"
-                                    width={320}
-                                    height={180}
-                                    alt="3"
-                                />
-                            </div>
-                            <span className="smalltext weight-bold mono-font">3</span>
-                        </a>
-                    </div>
-                </div>
-                <div className="padded-item">
-                    <div className="hover-outline selection-outline">
-                        <a href="/" title="4">
-                            <div>
-                                <Image
-                                    priority
-                                    src="/images/hs1.jpg"
-                                    width={320}
-                                    height={180}
-                                    alt="4"
-                                />
-                            </div>
-                            <span className="smalltext weight-bold mono-font">4</span>
-                        </a>
-                    </div>
+                            <span className="smalltext mono-font italics">Arboretum studio film</span>
+                        </div>
+                    </a>
 
+                </div>
+                <div className="padded-item">
+                    <a href="/" title="Lollapalooza in motion">
+                        <div className="hover-outline selection-outline">
+                            <div>
+                                <Image
+                                    priority
+                                    src="/images/lollapalooza-in-motion/1.jpg"
+                                    width={300}
+                                    height={200}
+                                    alt="Lollapalooza in motion"
+                                />
+                            </div>
+                            <span className="smalltext mono-font italics">Lollapalooza in motion</span>
+                        </div>
+                    </a>
+                </div>
+                <div className="padded-item">
+                    <a href="/" title="Portrait of Pacuare River Lodge">
+                        <div className="hover-outline selection-outline">
+                            <div>
+                                <Image
+                                    priority
+                                    src="/images/pacuare-river-lodge/1.jpg"
+                                    width={300}
+                                    height={200}
+                                    alt="Portrait of Pacuare River Lodge"
+                                />
+                            </div>
+                            <span className="smalltext mono-font italics">Portrait of Pacuare River Lodge</span>
+                        </div>
+                    </a>
+                </div>
+                <div className="padded-item">
+                    <a href="/" title="Life by candlelight">
+                        <div className="hover-outline selection-outline">
+                            <div>
+                                <Image
+                                    priority
+                                    src="/images/life-by-candlelight/1.jpg"
+                                    width={300}
+                                    height={200}
+                                    alt="Life by candlelight"
+                                />
+                            </div>
+                            <span className="smalltext mono-font italics">Life by candlelight</span>
+                        </div>
+                    </a>
+                </div>
+                <div className="padded-item">
+                    <a href="/" title="94 2 21">
+                        <div className="hover-outline selection-outline">
+                            <div>
+                                <Image
+                                    priority
+                                    src="/images/94-2-21/1.jpg"
+                                    width={300}
+                                    height={200}
+                                    alt="94 2 21"
+                                />
+                            </div>
+                            <span className="smalltext mono-font italics">`94 2 21</span>
+                        </div>
+                    </a>
                 </div>
 
             </div>

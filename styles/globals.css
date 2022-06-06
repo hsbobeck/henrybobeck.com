@@ -1,5 +1,5 @@
 .hover-outline:hover {
-  outline: black dotted 2px;
+  outline: rgb(56, 153, 183) dotted 2px;
 }
 
 .selection-outline:active,
@@ -14,6 +14,10 @@
 
 .left-side-padded {
   padding-left: 0.5rem;
+}
+
+.italics {
+  font-style: italic;
 }
 
 .smalltext {
@@ -60,6 +64,10 @@
 
 .items-center {
   align-items: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-center {
