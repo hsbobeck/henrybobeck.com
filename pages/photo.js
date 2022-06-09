@@ -17,7 +17,7 @@ export function PhotoContent() {
         <>
             <div id="container" className="text-center justify-center">
                 <div className="padded-item">
-                    <Link href="/">
+                    <Link href="/photo/arboretum-studio-film">
                         <a title="Arboretum studio film">
                             <div className="hover-outline selection-outline">
                                 <div>
@@ -51,7 +51,6 @@ export function PhotoContent() {
                             </div>
                         </a>
                     </Link>
-
                 </div>
                 <div className="padded-item">
                     <Link href="/">

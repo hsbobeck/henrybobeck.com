@@ -7,16 +7,24 @@
   outline: black dotted 2px;
 }
 
+.mt-0 {
+  margin-top: 0;
+}
+
 .pr-1 {
   padding-right: 1rem;
 }
 
-.pb-4 {
+.p-6 {
+  padding: 1.5rem;
+}
+
+.pb-1 {
   padding-bottom: 1rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.pb-1\.5 {
+  padding-bottom: 1.5rem;
 }
 
 .mx-6 {
@@ -33,7 +41,8 @@
   padding-left: 0.5rem;
 }
 
-.italics {
+.italics,
+.italic {
   font-style: italic;
 }
 
@@ -123,6 +132,11 @@
   height: auto;
   width: 69%;
   padding-bottom: 0rem;
+
+}
+
+.highlights {
+  flex: 1 1 300px;
 }
 
 #spacer-small {
