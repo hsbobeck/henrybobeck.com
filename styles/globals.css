@@ -7,6 +7,23 @@
   outline: black dotted 2px;
 }
 
+.pr-1 {
+  padding-right: 1rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .both-side-padded {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -18,6 +35,11 @@
 
 .italics {
   font-style: italic;
+}
+
+.xsmalltext {
+  font-size: .625rem;
+  line-height: 1rem;
 }
 
 .smalltext {
@@ -176,12 +198,20 @@
   bottom: 0;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 
+.light-mode {
+  background-color: white;
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }

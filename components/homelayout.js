@@ -1,26 +1,42 @@
-import Head from 'next/head';
 import styles from '../styles/Home.module.css'
+import MetaLayout from './meta';
+import Link from 'next/link';
+
+export async function getStaticProps() {
+    return { props: { isDark: true } };
+}
 
 export default function HomeLayout({ children }) {
     return (
+        <MetaLayout>
+            <HomeLayoutContent>
+                {children}
+            </HomeLayoutContent>
+        </MetaLayout>
+    )
+}
+
+export function HomeLayoutContent({ children }) {
+    return (
         <div className={styles.container}>
-            <Head>
-                <title>Henry Bobeck</title>
-                <meta name="description" content="filmmaker & photographer" />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-
             <main className={styles.main}>
-
                 {/* top left fixed */}
                 <div className="fixed left-8 top-8 smalltext mono-font gray z-30">
-                    <a href="/" className="link-text">henry bobeck</a>
+                    <Link href="/">
+                        <a href="/" className="link-text">henry bobeck</a>
+                    </Link>
                 </div>
                 {/* top right fixed */}
                 <div className="fixed right-8 top-8 smalltext mono-font gray z-30">
-                    <a href="/" className="link-text both-side-padded">video</a>
-                    <a href="/photo" className="link-text both-side-padded">photo</a>
-                    <a href="/contact" className="link-text left-side-padded">contact</a>
+                    <Link href="/">
+                        <a className="link-text both-side-padded">video</a>
+                    </Link>
+                    <Link href="/photo">
+                        <a className="link-text both-side-padded">photo</a>
+                    </Link>
+                    <Link href="/contact" >
+                        <a className="link-text left-side-padded">contact</a>
+                    </Link>
                 </div>
 
 

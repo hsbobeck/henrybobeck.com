@@ -1,7 +1,5 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
 import HomeLayout from '../components/homelayout'
 
 export default function VideoPage() {
@@ -17,21 +15,22 @@ export function VideoContent() {
         <>
             <div id="container" className="text-center justify-center">
                 <div className="padded-item">
-                    <a href="https://www.youtube.com/watch?v=ms3zDK4ekcc" target="_blank" title="FEEL YOURSELF BREATHE">
-                        <div className="hover-outline selection-outline">
-                            <div>
-                                <Image
-                                    priority
-                                    src="/images/fyb.jpg"
-                                    width={320}
-                                    height={180}
-                                    alt="FEEL YOURSELF BREATHE"
-                                />
+                    <Link href="/video/feel-yourself-breathe">
+                        <a title="FEEL YOURSELF BREATHE">
+                            <div className="hover-outline selection-outline">
+                                <div>
+                                    <Image
+                                        priority
+                                        src="/images/fyb.jpg"
+                                        width={320}
+                                        height={180}
+                                        alt="FEEL YOURSELF BREATHE"
+                                    />
+                                </div>
+                                <span className="smalltext mono-font">feel yourself breathe</span>
                             </div>
-                            <span className="smalltext mono-font">feel yourself breathe</span>
-                        </div>
-                    </a>
-
+                        </a>
+                    </Link>
                 </div>
                 <div className="padded-item">
                     <a href="https://www.youtube.com/watch?v=dI8WH1H7Huw" target="_blank" title="buckhorn springs">
