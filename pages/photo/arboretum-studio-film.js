@@ -23,71 +23,77 @@ export function JournalContent() {
             </div>
             {/* Highlight photos */}
             <div id="container" className="highlights">
+                <div className='padded-item'>
+                    <Image
+                        priority
+                        src="/images/photo/arboretum-studio-film/8.jpg"
+                        width='300'
+                        height='200'
+                    />
+                </div>
+                <div className='padded-item'>
+                    <Image
+                        priority
+                        src="/images/photo/arboretum-studio-film/10.jpg"
+                        width='300'
+                        height='200'
+                    />
+                </div>
+                {/* Remaining photos */}
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/arboretum-studio-film/8.jpg"
-                        width={300}
-                        height={200}
+                        src="/images/photo/arboretum-studio-film/1.jpg"
+                        width='300'
+                        height='200'
                     />
                 </div>
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/arboretum-studio-film/10.jpg"
-                        width={300}
-                        height={200}
-                    />
-                </div>
-            </div>
-            {/* Remaining photos */}
-            <div id="container">
-                <div className="padded-item">
-                    <Image
-                        priority
-                        src="/images/arboretum-studio-film/1.jpg"
-                        width={300}
-                        height={200}
+                        src="/images/photo/arboretum-studio-film/2.jpg"
+                        width='300'
+                        height='200'
                     />
                 </div>
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/arboretum-studio-film/2.jpg"
-                        width={300}
-                        height={200}
+                        src="/images/photo/arboretum-studio-film/9.jpg"
+                        width='300'
+                        height='200'
                     />
                 </div>
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/arboretum-studio-film/9.jpg"
-                        width={300}
-                        height={200}
+                        src="/images/photo/arboretum-studio-film/4.jpg"
+                        width='300'
+                        height='200'
                     />
                 </div>
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/arboretum-studio-film/4.jpg"
-                        width={300}
-                        height={200}
+                        src="/images/photo/arboretum-studio-film/5.jpg"
+                        width='300'
+                        height='200'
                     />
                 </div>
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/arboretum-studio-film/5.jpg"
-                        width={300}
-                        height={200}
+                        src="/images/photo/arboretum-studio-film/6.jpg"
+                        width='300'
+                        height='200'
                     />
                 </div>
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/arboretum-studio-film/6.jpg"
-                        width={300}
-                        height={200}
+                        src="/images/photo/arboretum-studio-film/14.jpg"
+                        width='300'
+                        height='200'
                     />
                 </div>
             </div>

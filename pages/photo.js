@@ -23,7 +23,7 @@ export function PhotoContent() {
                                 <div>
                                     <Image
                                         priority
-                                        src="/images/arboretum-studio-film/8.jpg"
+                                        src="/images/photo/arboretum-studio-film/8.jpg"
                                         width={300}
                                         height={200}
                                         alt="Arboretum studio film"
@@ -35,13 +35,13 @@ export function PhotoContent() {
                     </Link>
                 </div>
                 <div className="padded-item">
-                    <Link href="/">
+                    <Link href="/photo/lollapalooza-in-motion">
                         <a title="Lollapalooza in motion">
                             <div className="hover-outline selection-outline">
                                 <div>
                                     <Image
                                         priority
-                                        src="/images/lollapalooza-in-motion/1.jpg"
+                                        src="/images/photo/lollapalooza-in-motion/1.jpg"
                                         width={300}
                                         height={200}
                                         alt="Lollapalooza in motion"
@@ -53,13 +53,13 @@ export function PhotoContent() {
                     </Link>
                 </div>
                 <div className="padded-item">
-                    <Link href="/">
+                    <Link href="/photo/pacuare-river-lodge">
                         <a title="Portrait of Pacuare River Lodge">
                             <div className="hover-outline selection-outline">
                                 <div>
                                     <Image
                                         priority
-                                        src="/images/pacuare-river-lodge/1.jpg"
+                                        src="/images/photo/pacuare-river-lodge/1.jpg"
                                         width={300}
                                         height={200}
                                         alt="Portrait of Pacuare River Lodge"
@@ -71,13 +71,13 @@ export function PhotoContent() {
                     </Link>
                 </div>
                 <div className="padded-item">
-                    <Link href="/">
+                    <Link href="/photo/life-by-candlelight">
                         <a title="Life by candlelight">
                             <div className="hover-outline selection-outline">
                                 <div>
                                     <Image
                                         priority
-                                        src="/images/life-by-candlelight/1.jpg"
+                                        src="/images/photo/life-by-candlelight/1.jpg"
                                         width={300}
                                         height={200}
                                         alt="Life by candlelight"
@@ -89,13 +89,13 @@ export function PhotoContent() {
                     </Link>
                 </div>
                 <div className="padded-item">
-                    <Link href="/">
+                    <Link href="/photo/94-2-21">
                         <a title="94 2 21">
                             <div className="hover-outline selection-outline">
                                 <div>
                                     <Image
                                         priority
-                                        src="/images/94-2-21/1.jpg"
+                                        src="/images/photo/94-2-21/1.jpg"
                                         width={300}
                                         height={200}
                                         alt="94 2 21"
