@@ -27,6 +27,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/94-2-21/1.jpg"
+                        alt=""
                         width='450'
                         height='300'
                     />
@@ -35,6 +36,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/94-2-21/2.jpg"
+                        alt=""
                         width='450'
                         height='300'
                     />

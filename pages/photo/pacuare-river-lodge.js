@@ -27,6 +27,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/1.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -35,6 +36,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/2.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -44,6 +46,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/10.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -52,6 +55,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/4.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -60,6 +64,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/5.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -68,6 +73,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/6.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -76,6 +82,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/7.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -84,6 +91,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/8.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -92,6 +100,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/9.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -100,6 +109,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/14.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -108,6 +118,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/3.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -116,6 +127,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/13.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />

@@ -30,6 +30,7 @@ export function JournalContent() {
                         <Image
                             priority
                             src="/images/video/feel-yourself-breathe/still_1.jpg"
+                            alt=""
                             width="2048"
                             height="1080"
                         />
@@ -38,6 +39,7 @@ export function JournalContent() {
                         <Image
                             priority
                             src="/images/video/feel-yourself-breathe/still_3.jpg"
+                            alt=""
                             width="2048"
                             height="1080"
                         />
@@ -46,6 +48,7 @@ export function JournalContent() {
                         <Image
                             priority
                             src="/images/video/feel-yourself-breathe/still_2.jpg"
+                            alt=""
                             width="2048"
                             height="1080"
                         />
@@ -54,6 +57,7 @@ export function JournalContent() {
                         <Image
                             priority
                             src="/images/video/feel-yourself-breathe/still_5.jpg"
+                            alt=""
                             width="2048"
                             height="1080"
                         />
@@ -62,6 +66,7 @@ export function JournalContent() {
                         <Image
                             priority
                             src="/images/video/feel-yourself-breathe/still_4.jpg"
+                            alt=""
                             width="2048"
                             height="1080"
                         />

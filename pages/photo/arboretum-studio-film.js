@@ -27,6 +27,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/arboretum-studio-film/8.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -35,6 +36,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/arboretum-studio-film/10.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -44,6 +46,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/arboretum-studio-film/1.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -52,6 +55,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/arboretum-studio-film/2.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -60,6 +64,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/arboretum-studio-film/9.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -68,6 +73,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/arboretum-studio-film/4.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -76,6 +82,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/arboretum-studio-film/5.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -84,6 +91,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/arboretum-studio-film/6.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
@@ -92,6 +100,7 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/arboretum-studio-film/14.jpg"
+                        alt=""
                         width='300'
                         height='200'
                     />
