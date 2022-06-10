@@ -22,7 +22,7 @@ export function JournalContent() {
                 <p className="smalltext mono-font prose pb-1">music by Arboretum</p>
 
                 <div id="iframe-container" className='mb-2'>
-                    <iframe id="iframe-responsive" src="https://player.vimeo.com/video/588980823?h=a3de34d265" frameborder="0" allowfullscreen></iframe>
+                    <iframe id="iframe-responsive" src="https://player.vimeo.com/video/588980823?h=a3de34d265" frameBorder="0" allowFullScreen></iframe>
                 </div>
 
 

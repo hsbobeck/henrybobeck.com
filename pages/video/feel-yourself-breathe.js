@@ -22,7 +22,7 @@ export function JournalContent() {
                 <p className="smalltext mono-font prose pb-1">music by duster</p>
 
                 <div id="iframe-container" className='mb-2'>
-                    <iframe id="iframe-responsive" src="https://www.youtube.com/embed/ms3zDK4ekcc?autoplay=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe id="iframe-responsive" src="https://www.youtube.com/embed/ms3zDK4ekcc?autoplay=0" frameBorder="0" allowFullScreen></iframe>
                 </div>
 
                 <div id="container">

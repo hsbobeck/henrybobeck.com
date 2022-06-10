@@ -22,7 +22,7 @@ export function JournalContent() {
                 <p className="smalltext mono-font prose pb-1">music by alice baldwin</p>
 
                 <div id="iframe-container" className='mb-2'>
-                    <iframe id="iframe-responsive" src="https://www.youtube.com/embed/dI8WH1H7Huw?autoplay=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe id="iframe-responsive" src="https://www.youtube.com/embed/dI8WH1H7Huw?autoplay=0" frameBorder="0" allowFullScreen></iframe>
                 </div>
 
 

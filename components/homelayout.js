@@ -55,7 +55,7 @@ export function HomeLayoutContent({ children }) {
                 {/* top left fixed */}
                 <div className="reveal-top active fixed left-8 top-8 smalltext mono-font gray z-30">
                     <Link href="/">
-                        <a href="/" className="link-text">henry bobeck</a>
+                        <a className="link-text">henry bobeck</a>
                     </Link>
                 </div>
                 {/* top right fixed */}
@@ -81,9 +81,9 @@ export function HomeLayoutContent({ children }) {
                 <div className="fixed reveal-bot active bottom-8 left-0 right-0 h-0 flex text-center justify-center items-center z-30">
                     <div className="absolute bottom-0 smalltext mono-font gray">
                         <p>
-                            <a href="https://www.youtube.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">youtube</a> //{' '}
-                            <a href="https://www.instagram.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">instagram</a> //{' '}
-                            <a href="https://www.soundcloud.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">soundcloud</a> //{' '}
+                            <a href="https://www.youtube.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">youtube</a> /{' '}
+                            <a href="https://www.instagram.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">instagram</a> /{' '}
+                            <a href="https://www.soundcloud.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">soundcloud</a> /{' '}
                             <a href="https://www.vimeo.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">vimeo</a>
                         </p>
 
