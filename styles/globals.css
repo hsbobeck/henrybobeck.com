@@ -160,7 +160,7 @@
 
 .reveal-top {
   opacity: 0;
-  transition: 0.25s all ease;
+  transition: 0.15s all ease;
   pointer-events: none;
 }
 
@@ -171,7 +171,7 @@
 
 .reveal-bot {
   opacity: 0;
-  transition: 0.25s all ease;
+  transition: 0.15s all ease;
   pointer-events: none;
 }
 
