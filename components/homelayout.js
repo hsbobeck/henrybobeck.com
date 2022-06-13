@@ -39,7 +39,7 @@ export default function HomeLayout({ children }) {
         window.addEventListener('resize', handleScroll)
 
         return () => {
-            router.events.off('routeChangeComplete', handleScroll)
+            /*router.events.off('routeChangeComplete', handleScroll)*/ /*commented because this retains the problem when coming from a journal page*/
             window.removeEventListener('load', handleScroll)
             window.removeEventListener('scroll', handleScroll)
             window.removeEventListener('resize', handleScroll)
