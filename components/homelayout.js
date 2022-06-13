@@ -2,10 +2,10 @@ import styles from '../styles/Home.module.css'
 import MetaLayout from './meta';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react'
+import { useRouter } from "next/router";
 
 export default function HomeLayout({ children }) {
 
-    const [count, setCount] = useState(0)
 
     const handleScroll = () => {
         var reveals_top = document.querySelectorAll(".reveal-top");
@@ -30,16 +30,27 @@ export default function HomeLayout({ children }) {
         }
     }
 
+    const router = useRouter()
+
     useEffect(() => {
+        router.events.on('routeChangeComplete', handleScroll)
+        window.addEventListener('load', handleScroll)
         window.addEventListener('scroll', handleScroll)
         window.addEventListener('resize', handleScroll)
-        return () => window.removeEventListener('scroll', handleScroll)
+
+        return () => {
+            router.events.off('routeChangeComplete', handleScroll)
+            window.removeEventListener('load', handleScroll)
+            window.removeEventListener('scroll', handleScroll)
+            window.removeEventListener('resize', handleScroll)
+        }
     })
 
     return (
         <>
             <MetaLayout>
                 <HomeLayoutContent>
+                    <script>handleScroll()</script>
                     {children}
                 </HomeLayoutContent>
             </MetaLayout>

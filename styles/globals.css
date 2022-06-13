@@ -216,6 +216,10 @@
   height: 3rem;
 }
 
+.disable-scroll {
+  overflow: hidden;
+}
+
 .link-text:hover,
 .link-text:active {
   color: rgb(56, 153, 183);
