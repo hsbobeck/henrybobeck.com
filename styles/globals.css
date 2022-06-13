@@ -216,6 +216,10 @@
   height: 3rem;
 }
 
+.enable-scroll {
+  overflow: auto;
+}
+
 .disable-scroll {
   overflow: hidden;
 }
