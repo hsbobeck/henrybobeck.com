@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react'
 import { useRouter } from "next/router";
 
-export default function HomeLayout({ children }) {
+export default function HomeLayout({ children, disableRevealBot }) {
 
 
     const handleScroll = () => {
@@ -49,7 +49,7 @@ export default function HomeLayout({ children }) {
     return (
         <>
             <MetaLayout>
-                <HomeLayoutContent>
+                <HomeLayoutContent disableRevealBot={disableRevealBot}>
                     <script>handleScroll()</script>
                     {children}
                 </HomeLayoutContent>
@@ -59,7 +59,10 @@ export default function HomeLayout({ children }) {
     )
 }
 
-export function HomeLayoutContent({ children }) {
+export function HomeLayoutContent({ children, disableRevealBot }) {
+
+    const reveals_bot = disableRevealBot ? '' : 'reveal-bot';
+
     return (
         <div className={styles.container}>
             <main className={styles.main}>
@@ -89,7 +92,7 @@ export function HomeLayoutContent({ children }) {
                 <div id="spacer-large"></div>
                 {/* main content end */}
 
-                <div className="fixed reveal-bot active bottom-8 left-0 right-0 h-0 flex text-center justify-center items-center z-30">
+                <div className={`${reveals_bot} ${'fixed active bottom-8 left-0 right-0 h-0 flex text-center justify-center items-center z-30'}`}>
                     <div className="absolute bottom-0 smalltext mono-font gray">
                         <p>
                             <a href="https://www.youtube.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">youtube</a> /{' '}
