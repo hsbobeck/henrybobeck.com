@@ -36,6 +36,10 @@
   margin-bottom: 2rem;
 }
 
+.paragraph {
+  width: 33%;
+}
+
 .both-side-padded {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -79,6 +83,10 @@
 
 .gray {
   color: rgba(0, 0, 0, .5);
+}
+
+.lightgray {
+  color: rgba(255, 255, 255, 0.5)
 }
 
 .red {
@@ -204,6 +212,10 @@
   }
 
   #iframe-container {
+    width: 100%;
+  }
+
+  .paragraph {
     width: 100%;
   }
 }
