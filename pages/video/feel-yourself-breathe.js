@@ -14,11 +14,14 @@ export default function JournalPage() {
 }
 
 export function JournalContent() {
+
+    const DOUBLE_SLASH = "//";
+
     return (
         <>
             <div>
                 <div className="paragraph">
-                    <p className="smalltext mono-font prose mt-0">FEEL YOURSELF BREATHE <span className="lightgray">// 15 Jun 2022</span></p>
+                    <p className="smalltext mono-font prose mt-0">FEEL YOURSELF BREATHE <span className="lightgray">{DOUBLE_SLASH} 15 Jun 2022</span></p>
 
 
                     <p className="smalltext mono-font prose">About 6 months ago I was in my final year of college. Distracted, stuck. It wasn’t where I wanted to be. After waking up I would feel sick, and every day by noon I would develop a minor headache. I struggled with my appetite, often finding myself unable to eat breakfast or lunch without feeling the need to gag. But most days, I still managed to convince myself that I was happy. In truth, the body keeps the score.</p>
