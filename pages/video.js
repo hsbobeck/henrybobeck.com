@@ -27,7 +27,25 @@ export function VideoContent() {
                                         alt="FEEL YOURSELF BREATHE"
                                     />
                                 </div>
-                                <span className="smalltext mono-font">feel yourself breathe</span>
+                                <span className="smalltext mono-font">FEEL YOURSELF BREATHE</span>
+                            </div>
+                        </a>
+                    </Link>
+                </div>
+                <div className="padded-item">
+                    <Link href="/video/memory-of-costa-rica">
+                        <a title="Memory of Costa Rica">
+                            <div className="hover-outline selection-outline">
+                                <div>
+                                    <Image
+                                        priority
+                                        src="/images/video/memory-of-costa-rica/thumb.jpg"
+                                        width={320}
+                                        height={180}
+                                        alt="Memory of Costa Rica"
+                                    />
+                                </div>
+                                <span className="smalltext mono-font">Memory of Costa Rica</span>
                             </div>
                         </a>
                     </Link>

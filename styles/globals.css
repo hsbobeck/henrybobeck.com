@@ -37,7 +37,7 @@
 }
 
 .paragraph {
-  width: 33%;
+  max-width: 440px;
 }
 
 .both-side-padded {
@@ -142,7 +142,7 @@
   /* center items horizontally, in this case */
   align-items: center;
   height: auto;
-  width: 69%;
+  width: 1050px;
   padding-bottom: 0rem;
 
 }
@@ -212,10 +212,6 @@
   }
 
   #iframe-container {
-    width: 100%;
-  }
-
-  .paragraph {
     width: 100%;
   }
 }
