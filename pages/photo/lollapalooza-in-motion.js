@@ -54,6 +54,15 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
+                        src="/images/photo/lollapalooza-in-motion/4.jpg"
+                        alt=""
+                        width='300'
+                        height='200'
+                    />
+                </div>
+                <div className="padded-item">
+                    <Image
+                        priority
                         src="/images/photo/lollapalooza-in-motion/5.jpg"
                         alt=""
                         width='300'
@@ -91,15 +100,6 @@ export function JournalContent() {
                     <Image
                         priority
                         src="/images/photo/lollapalooza-in-motion/9.jpg"
-                        alt=""
-                        width='300'
-                        height='200'
-                    />
-                </div>
-                <div className="padded-item">
-                    <Image
-                        priority
-                        src="/images/photo/lollapalooza-in-motion/10.jpg"
                         alt=""
                         width='300'
                         height='200'
