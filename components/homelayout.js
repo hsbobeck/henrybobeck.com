@@ -101,7 +101,7 @@ export function HomeLayoutContent({ children, disableRevealBot }) {
                             <a href="https://www.vimeo.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">vimeo</a>
                         </p>
 
-                        <p className="unselectable">© Henry Bobeck 2022</p>
+                        <p className="unselectable">© Henry Bobeck 2023</p>
 
                     </div>
                 </div>

@@ -13,6 +13,7 @@ export default function JournalLayout({ children, source }) {
 }
 
 export function JournalLayoutContent({ children, source }) {
+
     return (
         <div className={styles.main}>
 

@@ -22,6 +22,7 @@ export function ContactContent() {
             <div className='disable-scroll'>
                 <p className="smalltext mono-font">Hi there!</p>
                 <p className="smalltext mono-font">Please direct all inquiries to <a className="weight-bold" href="mailto:henrybobeck@gmail.com">henrybobeck@gmail.com</a>.</p>
+                <p className="smalltext mono-font"></p>
                 <p className="smalltext mono-font">Thanks, Henry</p>
             </div>
         </>

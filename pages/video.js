@@ -14,6 +14,42 @@ export function VideoContent() {
     return (
         <>
             <div id="container" className="text-center justify-center">
+                {/* <div className="padded-item">
+                    <Link href="/video/lost">
+                        <a title="Lost">
+                            <div className="hover-outline selection-outline">
+                                <div>
+                                    <Image
+                                        priority
+                                        src="/images/video/lost/lost.jpg"
+                                        width={320}
+                                        height={180}
+                                        alt="Lost"
+                                    />
+                                </div>
+                                <span className="smalltext mono-font">Lost</span>
+                            </div>
+                        </a>
+                    </Link>
+                </div> */}
+                <div className="padded-item">
+                    <Link href="/video/wandering-italy">
+                        <a title="Wandering Italy">
+                            <div className="hover-outline selection-outline">
+                                <div>
+                                    <Image
+                                        priority
+                                        src="/images/video/wandering-italy/wandering-italy.jpg"
+                                        width={320}
+                                        height={180}
+                                        alt="Wandering Italy"
+                                    />
+                                </div>
+                                <span className="smalltext mono-font">Wandering Italy</span>
+                            </div>
+                        </a>
+                    </Link>
+                </div>
                 <div className="padded-item">
                     <Link href="/video/feel-yourself-breathe">
                         <a title="FEEL YOURSELF BREATHE">
@@ -32,7 +68,7 @@ export function VideoContent() {
                         </a>
                     </Link>
                 </div>
-                <div className="padded-item">
+                {/* <div className="padded-item">
                     <Link href="/video/memory-of-costa-rica">
                         <a title="Memory of Costa Rica">
                             <div className="hover-outline selection-outline">
@@ -49,7 +85,7 @@ export function VideoContent() {
                             </div>
                         </a>
                     </Link>
-                </div>
+                </div> */}
                 <div className="padded-item">
                     <Link href="/video/buckhorn-springs">
                         <a title="buckhorn springs">

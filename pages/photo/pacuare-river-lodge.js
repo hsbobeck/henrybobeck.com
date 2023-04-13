@@ -78,7 +78,7 @@ export function JournalContent() {
                         height='200'
                     />
                 </div>
-                <div className="padded-item">
+                {/* <div className="padded-item">
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/7.jpg"
@@ -86,20 +86,11 @@ export function JournalContent() {
                         width='300'
                         height='200'
                     />
-                </div>
+                </div> */}
                 <div className="padded-item">
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/8.jpg"
-                        alt=""
-                        width='300'
-                        height='200'
-                    />
-                </div>
-                <div className="padded-item">
-                    <Image
-                        priority
-                        src="/images/photo/pacuare-river-lodge/9.jpg"
                         alt=""
                         width='300'
                         height='200'
@@ -117,13 +108,22 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photo/pacuare-river-lodge/3.jpg"
+                        src="/images/photo/pacuare-river-lodge/9.jpg"
                         alt=""
                         width='300'
                         height='200'
                     />
                 </div>
-                <div className="padded-item">
+                {/* <div className="padded-item">
+                    <Image
+                        priority
+                        src="/images/photo/pacuare-river-lodge/3.jpg"
+                        alt=""
+                        width='300'
+                        height='200'
+                    />
+                </div> */}
+                {/* <div className="padded-item">
                     <Image
                         priority
                         src="/images/photo/pacuare-river-lodge/13.jpg"
@@ -131,7 +131,7 @@ export function JournalContent() {
                         width='300'
                         height='200'
                     />
-                </div>
+                </div> */}
             </div>
         </>
 
