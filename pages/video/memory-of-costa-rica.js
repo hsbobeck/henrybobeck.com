@@ -21,7 +21,7 @@ export function JournalContent() {
         <>
             <div>
                 <p className="smalltext mono-font prose mt-0">Memory of Costa Rica</p>
-                <p className="smalltext mono-font prose">directed, shot, edited by henry bobeck</p>
+                <p className="smalltext mono-font prose">direction, cinematography and editing by henry bobeck</p>
                 <p className="smalltext mono-font prose pb-1">music by H. Takahashi</p>
 
                 <div id="iframe-container" className='mb-2'>

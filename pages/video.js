@@ -11,9 +11,15 @@ export default function VideoPage() {
 }
 
 export function VideoContent() {
+
+    const video_item_ratio = 16 / 9;
+    const video_item_width = 384;
+    const video_item_height = video_item_width / video_item_ratio;
+
     return (
         <>
             <div id="container" className="text-center justify-center">
+
                 {/* <div className="padded-item">
                     <Link href="/video/lost">
                         <a title="Lost">
@@ -22,8 +28,8 @@ export function VideoContent() {
                                     <Image
                                         priority
                                         src="/images/video/lost/lost.jpg"
-                                        width={320}
-                                        height={180}
+                                        width={video_item_width}
+                                        height={video_item_height}
                                         alt="Lost"
                                     />
                                 </div>
@@ -33,6 +39,24 @@ export function VideoContent() {
                     </Link>
                 </div> */}
                 <div className="padded-item">
+                    <Link href="/video/wandering-connemara">
+                        <a title="Wandering Connemara">
+                            <div className="hover-outline selection-outline">
+                                <div>
+                                    <Image
+                                        priority
+                                        src="/images/video/wandering-connemara/thumb-1.jpg"
+                                        width={video_item_width}
+                                        height={video_item_height}
+                                        alt="Wandering Connemara"
+                                    />
+                                </div>
+                                <span className="smalltext mono-font">Wandering Connemara</span>
+                            </div>
+                        </a>
+                    </Link>
+                </div>
+                <div className="padded-item">
                     <Link href="/video/wandering-italy">
                         <a title="Wandering Italy">
                             <div className="hover-outline selection-outline">
@@ -40,8 +64,8 @@ export function VideoContent() {
                                     <Image
                                         priority
                                         src="/images/video/wandering-italy/wandering-italy.jpg"
-                                        width={320}
-                                        height={180}
+                                        width={video_item_width}
+                                        height={video_item_height}
                                         alt="Wandering Italy"
                                     />
                                 </div>
@@ -58,8 +82,8 @@ export function VideoContent() {
                                     <Image
                                         priority
                                         src="/images/video/feel-yourself-breathe/fyb.jpg"
-                                        width={320}
-                                        height={180}
+                                        width={video_item_width}
+                                        height={video_item_height}
                                         alt="FEEL YOURSELF BREATHE"
                                     />
                                 </div>
@@ -76,8 +100,8 @@ export function VideoContent() {
                                     <Image
                                         priority
                                         src="/images/video/memory-of-costa-rica/thumb.jpg"
-                                        width={320}
-                                        height={180}
+                                        width={video_item_width}
+                                        height={video_item_height}
                                         alt="Memory of Costa Rica"
                                     />
                                 </div>
@@ -94,8 +118,8 @@ export function VideoContent() {
                                     <Image
                                         priority
                                         src="/images/video/buckhorn-springs/buckhornsprings.jpg"
-                                        width={320}
-                                        height={180}
+                                        width={video_item_width}
+                                        height={video_item_height}
                                         alt="buckhorn springs"
                                     />
                                 </div>
@@ -112,8 +136,8 @@ export function VideoContent() {
                                     <Image
                                         priority
                                         src="/images/video/habitat-sartorial-2/hs2.jpg"
-                                        width={320}
-                                        height={180}
+                                        width={video_item_width}
+                                        height={video_item_height}
                                         alt="habitat sartorial f/w classics 2"
                                     />
                                 </div>
@@ -130,8 +154,8 @@ export function VideoContent() {
                                     <Image
                                         priority
                                         src="/images/video/habitat-sartorial-1/hs1.jpg"
-                                        width={320}
-                                        height={180}
+                                        width={video_item_width}
+                                        height={video_item_height}
                                         alt="Habitat Sartorial 1"
                                     />
                                 </div>

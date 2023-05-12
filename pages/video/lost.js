@@ -21,7 +21,7 @@ export function JournalContent() {
         <>
             <div>
                 <p className="smalltext mono-font prose mt-0">Lost <span className="lightgray">{DOUBLE_SLASH} September 2022</span></p>
-                <p className="smalltext mono-font prose">directed, shot, edited by henry bobeck</p>
+                <p className="smalltext mono-font prose">direction, cinematography, editing and color by henry bobeck</p>
                 <p className="smalltext mono-font prose pb-1">music by leyma</p>
 
                 <div id="iframe-container" className='mb-2'>

@@ -77,9 +77,27 @@ export function HomeLayoutContent({ children, disableRevealBot }) {
                     <Link href="/">
                         <a className="link-text both-side-padded">video</a>
                     </Link>
-                    <Link href="/photo">
-                        <a className="link-text both-side-padded">photo</a>
-                    </Link>
+                    <div className="has-dropdown">
+                        <Link href="/photography">
+                            <a className="link-text both-side-padded">photography</a>
+                        </Link>
+                        {/* <div className="dropdown">
+                            <Link href="/">
+                                <a className="dropdown-item link-text both-side-padded">portraits</a>
+                            </Link>
+                            <Link href="/">
+                                <a className="dropdown-item link-text both-side-padded">hotels</a>
+                            </Link>
+                            <Link href="/">
+                                <a className="dropdown-item link-text both-side-padded">products</a>
+                            </Link>
+                            <Link href="/photography">
+                                <a className="dropdown-item link-text both-side-padded">film</a>
+                            </Link>
+                        </div> */}
+                    </div>
+
+
                     <Link href="/contact" >
                         <a className="link-text left-side-padded">contact</a>
                     </Link>
@@ -95,10 +113,10 @@ export function HomeLayoutContent({ children, disableRevealBot }) {
                 <div className={`${reveals_bot} ${'fixed active bottom-8 left-0 right-0 h-0 flex text-center justify-center items-center z-30'}`}>
                     <div className="absolute bottom-0 smalltext mono-font gray">
                         <p>
-                            <a href="https://www.youtube.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">youtube</a> /{' '}
-                            <a href="https://www.instagram.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">instagram</a> /{' '}
-                            <a href="https://www.soundcloud.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">soundcloud</a> /{' '}
-                            <a href="https://www.vimeo.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">vimeo</a>
+                            <a href="https://www.youtube.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">youtube </a><a className="unselectable">/{' '}</a>
+                            <a href="https://www.instagram.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer"> instagram </a><a className="unselectable">/{' '}</a>
+                            <a href="https://www.soundcloud.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer"> soundcloud </a><a className="unselectable">/{' '}</a>
+                            <a href="https://www.vimeo.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer"> vimeo</a>
                         </p>
 
                         <p className="unselectable">© Henry Bobeck 2023</p>

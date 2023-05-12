@@ -32,7 +32,7 @@ export function JournalContent() {
                     forever</p>
 
 
-                <p className="smalltext mono-font prose ">shot, edited, and colored by Henry Bobeck</p>
+                <p className="smalltext mono-font prose ">direction, cinematography, editing and color by henry bobeck</p>
                 <p className="smalltext mono-font prose pb-1">music by Alice Phoebe Lou</p>
 
                 <div id="iframe-container" className='mb-2'>

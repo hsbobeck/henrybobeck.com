@@ -14,11 +14,14 @@ export default function JournalPage() {
 }
 
 export function JournalContent() {
+
+    const DOUBLE_SLASH = "//";
+
     return (
         <>
             <div>
-                <p className="smalltext mono-font prose mt-0">buckhorn springs</p>
-                <p className="smalltext mono-font prose">directed, shot, edited by henry bobeck</p>
+                <p className="smalltext mono-font prose mt-0">buckhorn springs <span className="lightgray">{DOUBLE_SLASH} May 2021</span></p>
+                <p className="smalltext mono-font prose">direction, cinematography, editing and color by henry bobeck</p>
                 <p className="smalltext mono-font prose pb-1">music by alice baldwin</p>
 
                 <div id="iframe-container" className='mb-2'>
