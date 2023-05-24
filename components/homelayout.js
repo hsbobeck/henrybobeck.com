@@ -37,7 +37,7 @@ export default function HomeLayout({ children, disableRevealBot }) {
         return targetReached;
     };
 
-    const isBreakpoint = useMediaQuery(380)
+    const isBreakpoint = useMediaQuery(385);
     const photography_nav_label = isBreakpoint ? "photo" : "photography";
 
     /* constant function that, when called, checks and updates scroll-revealed components */
