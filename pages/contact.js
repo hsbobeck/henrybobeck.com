@@ -21,8 +21,9 @@ export function ContactContent() {
         <>
             <div className='disable-scroll'>
                 <p className="smalltext mono-font">Hi there!</p>
-                <p className="smalltext mono-font">Please feel free to email me at <a className="link-text weight-bold" href="mailto:contact@henrybobeck.com" target="_blank" rel="noreferrer">contact@henrybobeck.com</a>,<br />
-                    or by Instagram DM at <a className="link-text weight-bold" href="https://www.instagram.com/henrybobeck" target="_blank" rel="noreferrer">@henrybobeck</a>.</p>
+                <p className="smalltext mono-font">Please feel free to message me at:</p>
+                <p className="smalltext mono-font">email / <a className="link-text weight-bold" href="mailto:contact@henrybobeck.com" target="_blank" rel="noreferrer">contact@henrybobeck.com</a><br />
+                    instagram / <a className="link-text weight-bold" href="https://www.instagram.com/henrybobeck" target="_blank" rel="noreferrer">@henrybobeck</a></p>
                 <p className="smalltext mono-font"></p>
                 <p className="smalltext mono-font">Thanks, Henry</p>
             </div>

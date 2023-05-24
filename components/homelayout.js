@@ -1,12 +1,46 @@
 import styles from '../styles/Home.module.css'
 import MetaLayout from './meta';
 import Link from 'next/link';
-import React, { useState, useEffect } from 'react'
+import React, { useState, useCallback, useEffect } from 'react'
 import { useRouter } from "next/router";
 
 export default function HomeLayout({ children, disableRevealBot }) {
 
+    /* 
+    media query based on given width value
+    (currently used to update 'photography' to 'photo' on small screens)
+    source: https://github.com/vercel/next.js/discussions/14810
+    */
+    const useMediaQuery = (width) => {
+        const [targetReached, setTargetReached] = useState(false);
 
+        const updateTarget = useCallback((e) => {
+            if (e.matches) {
+                setTargetReached(true);
+            } else {
+                setTargetReached(false);
+            }
+        }, []);
+
+        useEffect(() => {
+            const media = window.matchMedia(`(max-width: ${width}px)`);
+            media.addEventListener("change", updateTarget)
+
+            // Check on mount (callback is not called until a change occurs)
+            if (media.matches) {
+                setTargetReached(true);
+            }
+
+            return () => media.removeEventListener("change", updateTarget);
+        }, []);
+
+        return targetReached;
+    };
+
+    const isBreakpoint = useMediaQuery(380)
+    const photography_nav_label = isBreakpoint ? "photo" : "photography";
+
+    /* constant function that, when called, checks and updates scroll-revealed components */
     const handleScroll = () => {
         var reveals_top = document.querySelectorAll(".reveal-top");
         var reveals_bot = document.querySelectorAll(".reveal-bot");
@@ -30,8 +64,8 @@ export default function HomeLayout({ children, disableRevealBot }) {
         }
     }
 
+    /* listens for scrolling and resize changes and calls handleScroll() when a possible change is detected */
     const router = useRouter()
-
     useEffect(() => {
         router.events.on('routeChangeComplete', handleScroll)
         window.addEventListener('load', handleScroll)
@@ -49,8 +83,9 @@ export default function HomeLayout({ children, disableRevealBot }) {
     return (
         <>
             <MetaLayout>
-                <HomeLayoutContent disableRevealBot={disableRevealBot}>
+                <HomeLayoutContent disableRevealBot={disableRevealBot} photographyNavLabel={photography_nav_label}>
                     <script>handleScroll()</script>
+                    <script>useMediaQuery()</script>
                     {children}
                 </HomeLayoutContent>
             </MetaLayout>
@@ -59,7 +94,7 @@ export default function HomeLayout({ children, disableRevealBot }) {
     )
 }
 
-export function HomeLayoutContent({ children, disableRevealBot }) {
+export function HomeLayoutContent({ children, disableRevealBot, photographyNavLabel }) {
 
     const reveals_bot = disableRevealBot ? '' : 'reveal-bot';
 
@@ -79,7 +114,7 @@ export function HomeLayoutContent({ children, disableRevealBot }) {
                     </Link>
                     <div className="has-dropdown">
                         <Link href="/photography">
-                            <a className="link-text both-side-padded">photography</a>
+                            <a className="link-text both-side-padded">{photographyNavLabel}</a>
                         </Link>
                         {/* <div className="dropdown">
                             <Link href="/">
