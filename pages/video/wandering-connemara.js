@@ -31,19 +31,10 @@ export function JournalContent() {
                 </div>
 
                 <div id="container">
-                    {/* <div className="padded-item">
-                        <Image
-                            priority
-                            src="/images/video/wandering-connemara/insta-4.jpg"
-                            alt=""
-                            width="1614"
-                            height="2048"
-                        />
-                    </div>
                     <div className="padded-item">
                         <Image
                             priority
-                            src="/images/video/wandering-connemara/newstill_2.jpg"
+                            src="/images/video/wandering-connemara/01.jpg"
                             alt=""
                             width="2048"
                             height="1080"
@@ -52,7 +43,7 @@ export function JournalContent() {
                     <div className="padded-item">
                         <Image
                             priority
-                            src="/images/video/wandering-connemara/newstill_5.jpg"
+                            src="/images/video/wandering-connemara/02.jpg"
                             alt=""
                             width="2048"
                             height="1080"
@@ -61,12 +52,30 @@ export function JournalContent() {
                     <div className="padded-item">
                         <Image
                             priority
-                            src="/images/video/wandering-connemara/newstill_3.jpg"
+                            src="/images/video/wandering-connemara/03.jpg"
                             alt=""
                             width="2048"
                             height="1080"
                         />
-                    </div> */}
+                    </div>
+                    <div className="padded-item">
+                        <Image
+                            priority
+                            src="/images/video/wandering-connemara/04.jpg"
+                            alt=""
+                            width="2048"
+                            height="1080"
+                        />
+                    </div>
+                    <div className="padded-item">
+                        <Image
+                            priority
+                            src="/images/video/wandering-connemara/05.jpg"
+                            alt=""
+                            width="2048"
+                            height="1080"
+                        />
+                    </div>
 
                 </div>
             </div>
