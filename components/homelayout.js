@@ -151,7 +151,7 @@ export function HomeLayoutContent({ children, disableRevealBot, photographyNavLa
                             <a href="https://www.youtube.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">youtube </a><a className="unselectable">/{' '}</a>
                             <a href="https://www.instagram.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer"> instagram </a><a className="unselectable">/{' '}</a>
                             <a href="https://www.soundcloud.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer"> soundcloud </a><a className="unselectable">/{' '}</a>
-                            <a href="https://www.vimeo.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer"> vimeo</a>
+                            <a href="https://www.tiktok.com/@henrybobeck" className="link-text" target="_blank" rel="noreferrer"> tiktok</a>
                         </p>
 
                         <p className="unselectable">© Henry Bobeck 2023</p>
