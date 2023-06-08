@@ -154,7 +154,7 @@ export function HomeLayoutContent({ children, disableRevealBot, photographyNavLa
                             <a href="https://www.tiktok.com/@henrybobeck" className="link-text" target="_blank" rel="noreferrer"> tiktok</a>
                         </p>
 
-                        <p className="unselectable">© Henry Bobeck LLC 2023</p>
+                        <p className="unselectable">© 2023 Henry Bobeck LLC</p>
 
                     </div>
                 </div>
