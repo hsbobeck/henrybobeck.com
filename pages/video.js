@@ -81,7 +81,7 @@ export function VideoContent() {
                                 <div>
                                     <Image
                                         priority
-                                        src="/images/video/feel-yourself-breathe/fyb.jpg"
+                                        src="/images/video/feel-yourself-breathe/still_1.2.1.jpg"
                                         width={video_item_width}
                                         height={video_item_height}
                                         alt="FEEL YOURSELF BREATHE"
