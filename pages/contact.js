@@ -10,7 +10,7 @@ export async function getStaticProps() {
 
 export default function ContactPage() {
     return (
-        <HomeLayout disableRevealBot={true}>
+        <HomeLayout disableRevealBot={false}>
             {ContactContent()}
         </HomeLayout>
     )
