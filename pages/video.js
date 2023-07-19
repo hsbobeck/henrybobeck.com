@@ -39,6 +39,24 @@ export function VideoContent() {
                     </Link>
                 </div> */}
                 <div className="padded-item">
+                    <Link href="/video/visit-bali">
+                        <a title="Visit Bali">
+                            <div className="hover-outline selection-outline">
+                                <div>
+                                    <Image
+                                        priority
+                                        src="/images/video/visit-bali/11.jpg"
+                                        width={video_item_width}
+                                        height={video_item_height}
+                                        alt="Lost"
+                                    />
+                                </div>
+                                <span className="smalltext mono-font">Visit Bali x Henry Bobeck</span>
+                            </div>
+                        </a>
+                    </Link>
+                </div>
+                <div className="padded-item">
                     <Link href="/video/wandering-connemara">
                         <a title="Wandering Connemara">
                             <div className="hover-outline selection-outline">
@@ -110,7 +128,7 @@ export function VideoContent() {
                         </a>
                     </Link>
                 </div> */}
-                <div className="padded-item">
+                {/* <div className="padded-item">
                     <Link href="/video/buckhorn-springs">
                         <a title="buckhorn springs">
                             <div className="hover-outline selection-outline">
@@ -127,7 +145,7 @@ export function VideoContent() {
                             </div>
                         </a>
                     </Link>
-                </div>
+                </div> */}
                 <div className="padded-item">
                     <Link href="/video/habitat-sartorial-2">
                         <a title="habitat sartorial f/w classics 2">
