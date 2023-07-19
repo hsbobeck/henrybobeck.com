@@ -22,7 +22,7 @@ export function JournalContent() {
             <div>
                 <p className="smalltext mono-font prose mt-0">Visit Bali x Henry Bobeck <span className="lightgray">{DOUBLE_SLASH} 40 sec ad spot</span></p>
                 <div className="paragraph">
-                    <p className="smalltext mono-font prose">My favorite part of Bali was when I was able to give myself time to explore, breathe, and appreciate the unabashed, lush sprawl of nature around me. It's times like these I feel truly alive and in awe. I created this 40-sec ad spot for Bali tourism as an attempt to capture that feeling.</p>
+                    <p className="smalltext mono-font prose">My favorite part of Bali was when I was able to give myself time to explore, breathe, and appreciate the unabashed, lush sprawl of nature around me. It’s times like these that I feel truly alive and in awe. I created this 40-sec ad spot for Bali tourism as an attempt to capture that feeling.</p>
                 </div>
 
                 <p className="smalltext mono-font prose ">direction, cinematography, editing and color by henry bobeck</p>
