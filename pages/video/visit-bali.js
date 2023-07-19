@@ -20,7 +20,7 @@ export function JournalContent() {
     return (
         <>
             <div>
-                <p className="smalltext mono-font prose mt-0">Visit Bali x Henry Bobeck</p>
+                <p className="smalltext mono-font prose mt-0">Visit Bali x Henry Bobeck <span className="lightgray">{DOUBLE_SLASH} 40 sec ad spot</span></p>
 
 
                 <p className="smalltext mono-font prose ">direction, cinematography, editing and color by henry bobeck</p>

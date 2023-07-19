@@ -45,7 +45,7 @@ export function VideoContent() {
                                 <div>
                                     <Image
                                         priority
-                                        src="/images/video/visit-bali/11.jpg"
+                                        src="/images/video/visit-bali/thumbwithtitle.jpg"
                                         width={video_item_width}
                                         height={video_item_height}
                                         alt="Lost"
