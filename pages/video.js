@@ -18,9 +18,10 @@ export function VideoContent() {
 
     return (
         <>
-            <div id="container" className="text-center justify-center">
+            <div className="custom-flex-container">
+                <div id="container" className="text-center justify-center">
 
-                {/* <div className="padded-item">
+                    {/* <div className="padded-item">
                     <Link href="/video/lost">
                         <a title="Lost">
                             <div className="hover-outline selection-outline">
@@ -38,79 +39,79 @@ export function VideoContent() {
                         </a>
                     </Link>
                 </div> */}
-                <div className="padded-item">
-                    <Link href="/video/visit-bali">
-                        <a title="Visit Bali">
-                            <div className="hover-outline selection-outline">
-                                <div>
-                                    <Image
-                                        priority
-                                        src="/images/video/visit-bali/thumbwithtitle.jpg"
-                                        width={video_item_width}
-                                        height={video_item_height}
-                                        alt="Lost"
-                                    />
+                    <div className="padded-item">
+                        <Link href="/video/visit-bali">
+                            <a title="Visit Bali">
+                                <div className="hover-outline selection-outline">
+                                    <div>
+                                        <Image
+                                            priority
+                                            src="/images/video/visit-bali/thumbwithtitle.jpg"
+                                            width={video_item_width}
+                                            height={video_item_height}
+                                            alt="Lost"
+                                        />
+                                    </div>
+                                    <span className="smalltext mono-font">Visit Bali x Henry Bobeck</span>
                                 </div>
-                                <span className="smalltext mono-font">Visit Bali x Henry Bobeck</span>
-                            </div>
-                        </a>
-                    </Link>
-                </div>
-                <div className="padded-item">
-                    <Link href="/video/wandering-connemara">
-                        <a title="Wandering Connemara">
-                            <div className="hover-outline selection-outline">
-                                <div>
-                                    <Image
-                                        priority
-                                        src="/images/video/wandering-connemara/thumb-1.jpg"
-                                        width={video_item_width}
-                                        height={video_item_height}
-                                        alt="Wandering Connemara"
-                                    />
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="padded-item">
+                        <Link href="/video/wandering-connemara">
+                            <a title="Wandering Connemara">
+                                <div className="hover-outline selection-outline">
+                                    <div>
+                                        <Image
+                                            priority
+                                            src="/images/video/wandering-connemara/thumb-1.jpg"
+                                            width={video_item_width}
+                                            height={video_item_height}
+                                            alt="Wandering Connemara"
+                                        />
+                                    </div>
+                                    <span className="smalltext mono-font">Wandering Connemara</span>
                                 </div>
-                                <span className="smalltext mono-font">Wandering Connemara</span>
-                            </div>
-                        </a>
-                    </Link>
-                </div>
-                <div className="padded-item">
-                    <Link href="/video/wandering-italy">
-                        <a title="Wandering Italy">
-                            <div className="hover-outline selection-outline">
-                                <div>
-                                    <Image
-                                        priority
-                                        src="/images/video/wandering-italy/wandering-italy.jpg"
-                                        width={video_item_width}
-                                        height={video_item_height}
-                                        alt="Wandering Italy"
-                                    />
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="padded-item">
+                        <Link href="/video/wandering-italy">
+                            <a title="Wandering Italy">
+                                <div className="hover-outline selection-outline">
+                                    <div>
+                                        <Image
+                                            priority
+                                            src="/images/video/wandering-italy/wandering-italy.jpg"
+                                            width={video_item_width}
+                                            height={video_item_height}
+                                            alt="Wandering Italy"
+                                        />
+                                    </div>
+                                    <span className="smalltext mono-font">Wandering Italy</span>
                                 </div>
-                                <span className="smalltext mono-font">Wandering Italy</span>
-                            </div>
-                        </a>
-                    </Link>
-                </div>
-                <div className="padded-item">
-                    <Link href="/video/feel-yourself-breathe">
-                        <a title="FEEL YOURSELF BREATHE">
-                            <div className="hover-outline selection-outline">
-                                <div>
-                                    <Image
-                                        priority
-                                        src="/images/video/feel-yourself-breathe/still_1.2.1.jpg"
-                                        width={video_item_width}
-                                        height={video_item_height}
-                                        alt="FEEL YOURSELF BREATHE"
-                                    />
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="padded-item">
+                        <Link href="/video/feel-yourself-breathe">
+                            <a title="FEEL YOURSELF BREATHE">
+                                <div className="hover-outline selection-outline">
+                                    <div>
+                                        <Image
+                                            priority
+                                            src="/images/video/feel-yourself-breathe/still_1.2.1.jpg"
+                                            width={video_item_width}
+                                            height={video_item_height}
+                                            alt="FEEL YOURSELF BREATHE"
+                                        />
+                                    </div>
+                                    <span className="smalltext mono-font">FEEL YOURSELF BREATHE</span>
                                 </div>
-                                <span className="smalltext mono-font">FEEL YOURSELF BREATHE</span>
-                            </div>
-                        </a>
-                    </Link>
-                </div>
-                {/* <div className="padded-item">
+                            </a>
+                        </Link>
+                    </div>
+                    {/* <div className="padded-item">
                     <Link href="/video/memory-of-costa-rica">
                         <a title="Memory of Costa Rica">
                             <div className="hover-outline selection-outline">
@@ -128,7 +129,7 @@ export function VideoContent() {
                         </a>
                     </Link>
                 </div> */}
-                {/* <div className="padded-item">
+                    {/* <div className="padded-item">
                     <Link href="/video/buckhorn-springs">
                         <a title="buckhorn springs">
                             <div className="hover-outline selection-outline">
@@ -146,43 +147,44 @@ export function VideoContent() {
                         </a>
                     </Link>
                 </div> */}
-                <div className="padded-item">
-                    <Link href="/video/habitat-sartorial-2">
-                        <a title="habitat sartorial f/w classics 2">
-                            <div className="hover-outline selection-outline">
-                                <div>
-                                    <Image
-                                        priority
-                                        src="/images/video/habitat-sartorial-2/hs2.jpg"
-                                        width={video_item_width}
-                                        height={video_item_height}
-                                        alt="habitat sartorial f/w classics 2"
-                                    />
+                    <div className="padded-item">
+                        <Link href="/video/habitat-sartorial-2">
+                            <a title="habitat sartorial f/w classics 2">
+                                <div className="hover-outline selection-outline">
+                                    <div>
+                                        <Image
+                                            priority
+                                            src="/images/video/habitat-sartorial-2/hs2.jpg"
+                                            width={video_item_width}
+                                            height={video_item_height}
+                                            alt="habitat sartorial f/w classics 2"
+                                        />
+                                    </div>
+                                    <span className="smalltext mono-font">habitat sartorial f/w classics 2</span>
                                 </div>
-                                <span className="smalltext mono-font">habitat sartorial f/w classics 2</span>
-                            </div>
-                        </a>
-                    </Link>
-                </div>
-                <div className="padded-item">
-                    <Link href="/video/habitat-sartorial-1">
-                        <a title="habitat sartorial music summer 2021">
-                            <div className="hover-outline selection-outline">
-                                <div>
-                                    <Image
-                                        priority
-                                        src="/images/video/habitat-sartorial-1/hs1.jpg"
-                                        width={video_item_width}
-                                        height={video_item_height}
-                                        alt="Habitat Sartorial 1"
-                                    />
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="padded-item">
+                        <Link href="/video/habitat-sartorial-1">
+                            <a title="habitat sartorial music summer 2021">
+                                <div className="hover-outline selection-outline">
+                                    <div>
+                                        <Image
+                                            priority
+                                            src="/images/video/habitat-sartorial-1/hs1.jpg"
+                                            width={video_item_width}
+                                            height={video_item_height}
+                                            alt="Habitat Sartorial 1"
+                                        />
+                                    </div>
+                                    <span className="smalltext mono-font">habitat sartorial music summer 2021</span>
                                 </div>
-                                <span className="smalltext mono-font">habitat sartorial music summer 2021</span>
-                            </div>
-                        </a>
-                    </Link>
-                </div>
+                            </a>
+                        </Link>
+                    </div>
 
+                </div>
             </div>
         </>
     )

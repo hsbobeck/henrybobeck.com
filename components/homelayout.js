@@ -110,28 +110,28 @@ export function HomeLayoutContent({ children, disableRevealBot, photographyNavLa
                 {/* top right fixed */}
                 <div className="reveal-top active fixed right-8 top-8 smalltext mono-font gray z-30">
                     <Link href="/">
-                        <a className="link-text both-side-padded">video</a>
+                        <a className="link-text both-side-padded">films</a>
                     </Link>
                     <div className="has-dropdown">
-                        <Link href="/photography">
-                            <a className="link-text both-side-padded">{photographyNavLabel}</a>
-                        </Link>
-                        {/* <div className="dropdown">
-                            <Link href="/">
-                                <a className="dropdown-item link-text both-side-padded">portraits</a>
-                            </Link>
-                            <Link href="/">
-                                <a className="dropdown-item link-text both-side-padded">hotels</a>
-                            </Link>
-                            <Link href="/">
-                                <a className="dropdown-item link-text both-side-padded">products</a>
-                            </Link>
+                        <a className="link-text unselectable both-side-padded">{photographyNavLabel}</a>
+                        <div className="dropdown">
                             <Link href="/photography">
-                                <a className="dropdown-item link-text both-side-padded">film</a>
+                                <a className="dropdown-item link-text both-side-padded">personal</a>
                             </Link>
-                        </div> */}
+                            {/* <Link href="/">
+                                <a className="dropdown-item link-text both-side-padded">portrait</a>
+                            </Link> */}
+                            {/* <Link href="/">
+                                <a className="dropdown-item link-text both-side-padded">hotel</a>
+                            </Link> */}
+                            <Link href="/photography/product">
+                                <a className="dropdown-item link-text both-side-padded">commercial</a>
+                            </Link>
+                        </div>
                     </div>
-
+                    {/* <Link href="/shop">
+                        <a className="link-text both-side-padded">shop</a>
+                    </Link> */}
 
                     <Link href="/contact" >
                         <a className="link-text left-side-padded">contact</a>

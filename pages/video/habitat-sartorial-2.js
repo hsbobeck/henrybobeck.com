@@ -19,7 +19,7 @@ export function JournalContent() {
             <div>
                 <p className="smalltext mono-font prose mt-0">Habitat Sartorial F/W Classics 2 (BTS Video)</p>
                 <p className="smalltext mono-font prose">directed by Habitat Sartorial</p>
-                <p className="smalltext mono-font prose">shot, edited by henry bobeck</p>
+                <p className="smalltext mono-font prose">cinematography, editing and color by henry bobeck</p>
                 <p className="smalltext mono-font prose pb-1">music by Kenny Beats Discord</p>
 
                 <div id="iframe-container" className='mb-2'>

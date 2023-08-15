@@ -22,7 +22,7 @@ export function JournalContent() {
                 <p className="smalltext mono-font prose pb-1">Kodak Gold 200</p>
             </div>
             {/* Highlight photos */}
-            <div id="container" className="highlights">
+            <div id="container" className="journal-container">
                 <div className='padded-item'>
                     <Image
                         priority

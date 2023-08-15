@@ -1,0 +1,19 @@
+.main {
+    /* margin-right: 9vw; */
+}
+
+.journal-container {
+    /* establish flex container */
+    display: flex;
+    /* stack flex items vertically */
+    flex-flow: row wrap;
+    /* center items left, in this case */
+    justify-content: center;
+    /* center items horizontally, in this case */
+    align-items: center;
+    height: auto;
+    width: 100%;
+    /* 1200px */
+    padding-bottom: 0rem;
+
+}
