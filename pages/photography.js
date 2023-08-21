@@ -24,6 +24,24 @@ export function PhotoContent() {
             <div className="custom-flex-container">
                 <div id="container" className="text-center justify-center">
                     <div className="padded-item">
+                        <Link href="/photography/personal/as-they-remember-us">
+                            <a title="As they remember us">
+                                <div className="hover-outline selection-outline">
+                                    <div>
+                                        <Image
+                                            priority
+                                            src="/images/photography/personal/as-they-remember-us/1.jpg"
+                                            width={photo_item_width}
+                                            height={photo_item_height}
+                                            alt="As they remember us"
+                                        />
+                                    </div>
+                                    <span className="smalltext mono-font italics">As they remember us</span>
+                                </div>
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="padded-item">
                         <Link href="/photography/personal/somewhere-in-memory">
                             <a title="Somewhere in memory">
                                 <div className="hover-outline selection-outline">
