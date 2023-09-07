@@ -22,7 +22,7 @@ export function PersonalPhotographyContent() {
         <>
             <div id="spacer-small" className="mobile-hidden"></div>
             <div className="custom-flex-container">
-                <div id="container" className="text-center justify-center mediumtext main-font">
+                <div id="container" className="text-center justify-center mediumtext font-futura">
                     <div className="padded-item">
                         <Link href="/photography/personal/as-they-remember-us">
                             <a title="As they remember us">

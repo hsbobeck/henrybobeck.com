@@ -30,7 +30,7 @@ export function ContactContent() {
                             alt="Portrait of Henry Bobeck"
                         />
                     </div>
-                    <div className="padded-item paragraph main-font mediumtext">
+                    <div className="padded-item paragraph font-futura mediumtext">
                         <p>Hi there!</p>
                         <p>My name is Henry Bobeck.</p>
                         <p>I am a traveler, photographer, filmmaker, and cinematographer from Indiana, USA. While on the road, I’ve learned the power of stories to bring us together and connect us through emotion. What I love most is to communicate emotion through films and photography, and I want to use this passion of mine to tell stories which support us and the life around us. I’d love to tell yours. I’m available for work wherever you are and wherever you’re going.</p>

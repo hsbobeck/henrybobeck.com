@@ -102,13 +102,13 @@ export function HomeLayoutContent({ children, disableRevealBot, photographyNavLa
         <div className={styles.container}>
             <main className={styles.main}>
                 {/* top left fixed */}
-                <div className="reveal-top active fixed left-8 top-8 mediumtext main-font gray z-30">
+                <div className="reveal-top active fixed left-8 top-8 mediumtext font-futura gray z-30">
                     <Link href="/">
                         <a className="link-text">henry bobeck</a>
                     </Link>
                 </div>
                 {/* top right fixed */}
-                <div className="reveal-top active fixed right-8 top-8 mediumtext main-font gray z-30">
+                <div className="reveal-top active fixed right-8 top-8 mediumtext font-futura gray z-30">
                     <Link href="/">
                         <a className="link-text both-side-padded">films</a>
                     </Link>
@@ -146,7 +146,7 @@ export function HomeLayoutContent({ children, disableRevealBot, photographyNavLa
                 {/* main content end */}
 
                 <div className={`${reveals_bot} ${'fixed active bottom-8 left-0 right-0 h-0 flex text-center justify-center items-center z-30'}`}>
-                    <div className="absolute bottom-0 mediumtext main-font gray">
+                    <div className="absolute bottom-0 mediumtext font-futura gray">
                         <p>
                             <a href="https://www.youtube.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">youtube </a><a className="unselectable">/{' '}</a>
                             <a href="https://www.instagram.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer"> instagram </a><a className="unselectable">/{' '}</a>

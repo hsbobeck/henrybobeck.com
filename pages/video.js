@@ -18,7 +18,7 @@ export function VideoContent() {
 
     return (
         <>
-            <div className="custom-flex-container mediumtext main-font">
+            <div className="custom-flex-container mediumtext font-futura">
                 <div id="container" className="text-center justify-center">
 
                     {/* <div className="padded-item">

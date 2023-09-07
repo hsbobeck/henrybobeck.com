@@ -5,7 +5,9 @@ export default class MyDocument extends Document {
         const pageProps = this.props?.__NEXT_DATA__?.props?.pageProps;
         return (
             <Html>
-                <Head />
+                <Head>
+                    <link rel="stylesheet" href="https://use.typekit.net/xtw0jto.css" />
+                </Head>
                 <body className={pageProps.isDark ? 'dark-mode' : 'light-mode'}>
                     <Main />
                     <NextScript />
