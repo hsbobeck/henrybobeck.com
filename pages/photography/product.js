@@ -5,6 +5,9 @@ import styles from '../../styles/Home.module.css'
 import Gallery from "react-photo-gallery";
 import HomeLayout from '../../components/homelayout'
 import JournalLayout from '../../components/journallayout'
+import React, { useState, useCallback } from "react";
+import nextGalleryImageRenderer from '../../components/nextGalleryImageRenderer';
+
 
 /*
 Implemented masonry photo gallery using the following:
@@ -29,27 +32,27 @@ export function ProductPhotographyContent() {
 
     const photos = [
         {
-            src: "../../images/photography/product/amazin-aces/1.jpg",
+            src: "/images/photography/product/amazin-aces/1.jpg",
             width: 3,
             height: 2
         },
         {
-            src: "../../images/photography/product/amazin-aces/2.jpg",
+            src: "/images/photography/product/amazin-aces/2.jpg",
             width: 2,
             height: 3
         },
         {
-            src: "../../images/photography/product/amazin-aces/3.jpg",
+            src: "/images/photography/product/amazin-aces/3.jpg",
             width: 2,
             height: 3
         },
         {
-            src: "../../images/photography/product/amazin-aces/4.jpg",
+            src: "/images/photography/product/amazin-aces/4.jpg",
             width: 2,
             height: 3
         },
         {
-            src: "../../images/photography/product/amazin-aces/5.jpg",
+            src: "/images/photography/product/amazin-aces/5.jpg",
             width: 3,
             height: 2
         },
@@ -59,7 +62,7 @@ export function ProductPhotographyContent() {
         <>
             <div id="spacer-medium" className="mobile-hidden"></div>
 
-            <Gallery photos={photos} targetRowHeight={400} margin={9} />
+            <Gallery photos={photos} targetRowHeight={400} margin={9} renderImage={nextGalleryImageRenderer} />
         </>
     )
 }
