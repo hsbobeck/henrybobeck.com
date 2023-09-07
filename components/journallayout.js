@@ -19,7 +19,7 @@ export function JournalLayoutContent({ children, source }) {
 
             <div className="p-6 pb-1 flex items-center">
                 <Link href={source ? source : "/"}>
-                    <a className="xsmalltext mono-font"><span className="pr-1 smalltext">←</span>back to home</a>
+                    <a className="xsmalltext main-font"><span className="pr-1 smalltext">←</span>back to home</a>
                 </Link>
             </div>
             <div className="mx-6 pb-6">

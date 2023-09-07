@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import JournalLayout from '../../components/journallayout'
+import JournalLayout from '../../../components/journallayout'
 
 export async function getStaticProps() {
     return { props: { isDark: true } };
@@ -26,7 +26,7 @@ export function JournalContent() {
                 <div className='padded-item'>
                     <Image
                         priority
-                        src="/images/photography/94-2-21/1.jpg"
+                        src="/images/photography/personal/94-2-21/1.jpg"
                         alt=""
                         width='450'
                         height='300'
@@ -35,7 +35,7 @@ export function JournalContent() {
                 <div className='padded-item'>
                     <Image
                         priority
-                        src="/images/photography/94-2-21/2.jpg"
+                        src="/images/photography/personal/94-2-21/2.jpg"
                         alt=""
                         width='450'
                         height='300'

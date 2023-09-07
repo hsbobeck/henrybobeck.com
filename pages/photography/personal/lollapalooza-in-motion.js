@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import JournalLayout from '../../components/journallayout'
+import JournalLayout from '../../../components/journallayout'
 
 export async function getStaticProps() {
     return { props: { isDark: true } };
@@ -17,16 +17,16 @@ export function JournalContent() {
     return (
         <>
             <div>
-                <p className="smalltext mono-font prose mt-0 italic">Arboretum studio film</p>
-                <p className="smalltext mono-font prose">Indianapolis, IN</p>
-                <p className="smalltext mono-font prose pb-1">Kodak Ultramax 400</p>
+                <p className="smalltext mono-font prose mt-0 italic">Lollapalooza in motion</p>
+                <p className="smalltext mono-font prose">Chicago, IL</p>
+                <p className="smalltext mono-font prose pb-1">Kodak Gold 200</p>
             </div>
             {/* Highlight photos */}
             <div id="container" className="highlights">
                 <div className='padded-item'>
                     <Image
                         priority
-                        src="/images/photography/arboretum-studio-film/8.jpg"
+                        src="/images/photography/personal/lollapalooza-in-motion/1.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -35,7 +35,7 @@ export function JournalContent() {
                 <div className='padded-item'>
                     <Image
                         priority
-                        src="/images/photography/arboretum-studio-film/10.jpg"
+                        src="/images/photography/personal/lollapalooza-in-motion/2.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -45,7 +45,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/arboretum-studio-film/1.jpg"
+                        src="/images/photography/personal/lollapalooza-in-motion/3.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -54,7 +54,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/arboretum-studio-film/2.jpg"
+                        src="/images/photography/personal/lollapalooza-in-motion/4.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -63,7 +63,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/arboretum-studio-film/9.jpg"
+                        src="/images/photography/personal/lollapalooza-in-motion/5.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -72,7 +72,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/arboretum-studio-film/4.jpg"
+                        src="/images/photography/personal/lollapalooza-in-motion/6.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -81,7 +81,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/arboretum-studio-film/5.jpg"
+                        src="/images/photography/personal/lollapalooza-in-motion/7.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -90,7 +90,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/arboretum-studio-film/6.jpg"
+                        src="/images/photography/personal/lollapalooza-in-motion/8.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -99,7 +99,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/arboretum-studio-film/14.jpg"
+                        src="/images/photography/personal/lollapalooza-in-motion/9.jpg"
                         alt=""
                         width='375'
                         height='250'

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import JournalLayout from '../../components/journallayout'
+import JournalLayout from '../../../components/journallayout'
 import Gallery from 'react-photo-gallery';
 
 export async function getStaticProps() {
@@ -51,7 +51,7 @@ export function JournalContent() {
                 <div className='padded-item-more'>
                     <Image
                         priority
-                        src="/images/photography/in-wishes-we-hide-our-pain/horiz3.jpg"
+                        src="/images/photography/personal/in-wishes-we-hide-our-pain/horiz3.jpg"
                         alt=""
                         width='600'
                         height='400'
@@ -60,7 +60,7 @@ export function JournalContent() {
                 <div className='padded-item-more'>
                     <Image
                         priority
-                        src="/images/photography/in-wishes-we-hide-our-pain/horiz2.jpg"
+                        src="/images/photography/personal/in-wishes-we-hide-our-pain/horiz2.jpg"
                         alt=""
                         width='600'
                         height='400'
@@ -69,7 +69,7 @@ export function JournalContent() {
                 <div className="padded-item-more">
                     <Image
                         priority
-                        src="/images/photography/in-wishes-we-hide-our-pain/horiz1.jpg"
+                        src="/images/photography/personal/in-wishes-we-hide-our-pain/horiz1.jpg"
                         alt=""
                         width='600'
                         height='400'
@@ -78,7 +78,7 @@ export function JournalContent() {
                 <div className="padded-item-more">
                     <Image
                         priority
-                        src="/images/photography/in-wishes-we-hide-our-pain/horiz4.jpg"
+                        src="/images/photography/personal/in-wishes-we-hide-our-pain/horiz4.jpg"
                         alt=""
                         width='600'
                         height='400'

@@ -8,6 +8,11 @@ const nextConfig = {
         destination: '/photography',
         permanent: true,
       },
+      {
+        source: '/photography',
+        destination: '/photography/personal',
+        permanent: true,
+      },
     ]
   },
 }

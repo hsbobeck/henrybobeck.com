@@ -18,7 +18,7 @@ export function VideoContent() {
 
     return (
         <>
-            <div className="custom-flex-container">
+            <div className="custom-flex-container mediumtext main-font">
                 <div id="container" className="text-center justify-center">
 
                     {/* <div className="padded-item">
@@ -34,7 +34,7 @@ export function VideoContent() {
                                         alt="Lost"
                                     />
                                 </div>
-                                <span className="smalltext mono-font">Lost</span>
+                                <span>Lost</span>
                             </div>
                         </a>
                     </Link>
@@ -52,7 +52,7 @@ export function VideoContent() {
                                             alt="Lost"
                                         />
                                     </div>
-                                    <span className="smalltext mono-font">Visit Bali x Henry Bobeck</span>
+                                    <span>Visit Bali x Henry Bobeck</span>
                                 </div>
                             </a>
                         </Link>
@@ -70,7 +70,7 @@ export function VideoContent() {
                                             alt="Wandering Connemara"
                                         />
                                     </div>
-                                    <span className="smalltext mono-font">Wandering Connemara</span>
+                                    <span>Wandering Connemara</span>
                                 </div>
                             </a>
                         </Link>
@@ -88,7 +88,7 @@ export function VideoContent() {
                                             alt="Wandering Italy"
                                         />
                                     </div>
-                                    <span className="smalltext mono-font">Wandering Italy</span>
+                                    <span>Wandering Italy</span>
                                 </div>
                             </a>
                         </Link>
@@ -106,7 +106,7 @@ export function VideoContent() {
                                             alt="FEEL YOURSELF BREATHE"
                                         />
                                     </div>
-                                    <span className="smalltext mono-font">FEEL YOURSELF BREATHE</span>
+                                    <span>FEEL YOURSELF BREATHE</span>
                                 </div>
                             </a>
                         </Link>
@@ -124,7 +124,7 @@ export function VideoContent() {
                                         alt="Memory of Costa Rica"
                                     />
                                 </div>
-                                <span className="smalltext mono-font">Memory of Costa Rica</span>
+                                <span>Memory of Costa Rica</span>
                             </div>
                         </a>
                     </Link>
@@ -142,7 +142,7 @@ export function VideoContent() {
                                         alt="buckhorn springs"
                                     />
                                 </div>
-                                <span className="smalltext mono-font">buckhorn springs</span>
+                                <span>buckhorn springs</span>
                             </div>
                         </a>
                     </Link>
@@ -160,7 +160,7 @@ export function VideoContent() {
                                             alt="habitat sartorial f/w classics 2"
                                         />
                                     </div>
-                                    <span className="smalltext mono-font">habitat sartorial f/w classics 2</span>
+                                    <span>habitat sartorial f/w classics 2</span>
                                 </div>
                             </a>
                         </Link>
@@ -178,7 +178,7 @@ export function VideoContent() {
                                             alt="Habitat Sartorial 1"
                                         />
                                     </div>
-                                    <span className="smalltext mono-font">habitat sartorial music summer 2021</span>
+                                    <span>habitat sartorial music summer 2021</span>
                                 </div>
                             </a>
                         </Link>

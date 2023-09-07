@@ -1,6 +1,11 @@
 import React, { useState, useEffect, useCallback } from "react";
 import Image from 'next/image';
 
+const cont = {
+    backgroundColor: "#eee",
+    overflow: "hidden",
+    position: "relative"
+};
 
 const NextGalleryImage = ({
     index,
@@ -28,12 +33,6 @@ const NextGalleryImage = ({
             />
         </div>
     );
-};
-
-const cont = {
-    backgroundColor: "#eee",
-    overflow: "hidden",
-    position: "relative"
 };
 
 const nextGalleryImageRenderer =

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import JournalLayout from '../../components/journallayout'
+import JournalLayout from '../../../components/journallayout'
 
 export async function getStaticProps() {
     return { props: { isDark: true } };
@@ -26,7 +26,7 @@ export function JournalContent() {
                 <div className='padded-item'>
                     <Image
                         priority
-                        src="/images/photography/life-by-candlelight/1.jpg"
+                        src="/images/photography/personal/life-by-candlelight/1.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -35,7 +35,7 @@ export function JournalContent() {
                 <div className='padded-item'>
                     <Image
                         priority
-                        src="/images/photography/life-by-candlelight/6.jpg"
+                        src="/images/photography/personal/life-by-candlelight/6.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -45,7 +45,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/life-by-candlelight/7.jpg"
+                        src="/images/photography/personal/life-by-candlelight/7.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -54,7 +54,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/life-by-candlelight/3.jpg"
+                        src="/images/photography/personal/life-by-candlelight/3.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -63,7 +63,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/life-by-candlelight/2.jpg"
+                        src="/images/photography/personal/life-by-candlelight/2.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -72,7 +72,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/life-by-candlelight/8.jpg"
+                        src="/images/photography/personal/life-by-candlelight/8.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -81,7 +81,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/life-by-candlelight/5.jpg"
+                        src="/images/photography/personal/life-by-candlelight/5.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -90,7 +90,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/life-by-candlelight/10.jpg"
+                        src="/images/photography/personal/life-by-candlelight/10.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -99,7 +99,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/life-by-candlelight/9.jpg"
+                        src="/images/photography/personal/life-by-candlelight/9.jpg"
                         alt=""
                         width='375'
                         height='250'
