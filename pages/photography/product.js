@@ -60,9 +60,12 @@ export function ProductPhotographyContent() {
 
     return (
         <>
-            <div id="spacer-medium" className="mobile-hidden"></div>
+            <div id="spacer-small" className="mobile-hidden"></div>
 
             <Gallery photos={photos} targetRowHeight={400} margin={9} renderImage={nextGalleryImageRenderer} />
+
+            <div id="spacer-small" className="mobile-hidden"></div>
+
         </>
     )
 }

@@ -24,6 +24,24 @@ export function PersonalPhotographyContent() {
             <div className="custom-flex-container">
                 <div id="container" className="text-center justify-center mediumtext font-futura">
                     <div className="padded-item">
+                        <Link href="/photography/personal/scenes-to-remind-me-of-home">
+                            <a title="Scenes to remind me of home">
+                                <div className="hover-outline selection-outline">
+                                    <div>
+                                        <Image
+                                            priority
+                                            src="/images/photography/personal/scenes-to-remind-me-of-home/1-2.jpg"
+                                            width={photo_item_width}
+                                            height={photo_item_height}
+                                            alt="Scenes to remind me of home"
+                                        />
+                                    </div>
+                                    <span className="italics">Scenes to remind me of home</span>
+                                </div>
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="padded-item">
                         <Link href="/photography/personal/as-they-remember-us">
                             <a title="As they remember us">
                                 <div className="hover-outline selection-outline">
