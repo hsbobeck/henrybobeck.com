@@ -7,7 +7,7 @@ export async function getStaticProps() {
 
 export default function JournalPage() {
     return (
-        <JournalLayout>
+        <JournalLayout source="/video">
             {JournalContent()}
         </JournalLayout>
     )
