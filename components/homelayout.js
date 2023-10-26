@@ -109,7 +109,7 @@ export function HomeLayoutContent({ children, disableRevealBot, photographyNavLa
                 </div>
                 {/* top right fixed */}
                 <div className="reveal-top active fixed right-8 top-8 mediumtext font-futura gray z-30">
-                    <Link href="/">
+                    <Link href="/video">
                         <a className="link-text both-side-padded">films</a>
                     </Link>
                     <div className="has-dropdown">
