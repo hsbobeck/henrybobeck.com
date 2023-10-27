@@ -78,6 +78,36 @@ export function EventPhotographyContent() {
         //     height: 3
         // },
         {
+            src: "/images/photography/personal/arboretum-studio-film/8.jpg",
+            width: 3,
+            height: 2
+        },
+        {
+            src: "/images/photography/personal/arboretum-studio-film/10.jpg",
+            width: 3,
+            height: 2
+        },
+        {
+            src: "/images/photography/personal/arboretum-studio-film/9.jpg",
+            width: 3,
+            height: 2
+        },
+        {
+            src: "/images/photography/personal/arboretum-studio-film/1.jpg",
+            width: 3,
+            height: 2
+        },
+        {
+            src: "/images/photography/personal/arboretum-studio-film/5.jpg",
+            width: 3,
+            height: 2
+        },
+        {
+            src: "/images/photography/personal/arboretum-studio-film/14.jpg",
+            width: 3,
+            height: 2
+        },
+        {
             src: "/images/photography/event/hs-nashville-2023/7.jpg",
             width: 3,
             height: 2
@@ -152,11 +182,11 @@ export function EventPhotographyContent() {
             width: 3,
             height: 2
         },
-        {
-            src: "/images/photography/event/hs-nashville-2023/15.jpg",
-            width: 3,
-            height: 2
-        },
+        // {
+        //     src: "/images/photography/event/hs-nashville-2023/15.jpg",
+        //     width: 3,
+        //     height: 2
+        // },
         // {
         //     src: "/images/photography/event/hs-nashville-2023/17.jpg",
         //     width: 3,
@@ -167,11 +197,11 @@ export function EventPhotographyContent() {
         //     width: 3,
         //     height: 2
         // },
-        {
-            src: "/images/photography/event/hs-nashville-2023/20.jpg",
-            width: 3,
-            height: 2
-        },
+        // {
+        //     src: "/images/photography/event/hs-nashville-2023/20.jpg",
+        //     width: 3,
+        //     height: 2
+        // },
         // {
         //     src: "/images/photography/event/hs-nashville-2023/21.jpg",
         //     width: 3,
@@ -187,11 +217,11 @@ export function EventPhotographyContent() {
         //     width: 3,
         //     height: 2
         // },
-        {
-            src: "/images/photography/event/hs-nashville-2023/29.jpg",
-            width: 3,
-            height: 2
-        },
+        // {
+        //     src: "/images/photography/event/hs-nashville-2023/29.jpg",
+        //     width: 3,
+        //     height: 2
+        // },
         // {
         //     src: "/images/photography/event/hs-nashville-2023/31.jpg",
         //     width: 4,
@@ -201,19 +231,19 @@ export function EventPhotographyContent() {
         //     src: "/images/photography/event/hs-nashville-2023/32.jpg",
         //     width: 3,
         //     height: 2
+        // // },
+        // {
+        //     src: "/images/photography/event/hs-nashville-2023/33.jpg",
+        //     width: 3,
+        //     height: 2
         // },
-        {
-            src: "/images/photography/event/hs-nashville-2023/33.jpg",
-            width: 3,
-            height: 2
-        },
     ];
 
     return (
         <>
             <div id="spacer-small" className="mobile-hidden"></div>
 
-            <Gallery photos={photos} targetRowHeight={400} margin={9} renderImage={nextGalleryImageRenderer} />
+            <Gallery photos={photos} targetRowHeight={600} margin={9} renderImage={nextGalleryImageRenderer} />
 
             <div id="spacer-small" className="mobile-hidden"></div>
 
