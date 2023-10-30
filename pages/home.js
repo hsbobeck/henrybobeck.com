@@ -8,10 +8,13 @@ import NextJsImage from '../components/NextJsImage';
 
 import image1 from "../public/images/photography/personal/scenes-to-remind-me-of-home/1-2.jpg";
 import image2 from "../public/images/shop/moroccan.jpg";
-import image3 from "../public/images/photography/portrait/edem1-43.jpg";
-import image4 from "../public/images/photography/personal/lollapalooza-in-motion/1.jpg";
-import image5 from "../public/images/photography/personal/as-they-remember-us/1.jpg";
-import image6 from "../public/images/photography/event/hs-nashville-2023/27.jpg";
+import image3 from "../public/images/photography/personal/lollapalooza-in-motion/1.jpg";
+import image4 from "../public/images/photography/personal/as-they-remember-us/1.jpg";
+import image5 from "../public/images/photography/personal/schoolhouse.jpg";
+import image6 from "../public/images/photography/personal/ways-of-being-wild/bloodmoon.jpg";
+import image7 from "../public/images/photography/personal/ways-of-being-wild/candle.jpg";
+import image8 from "../public/images/photography/personal/ways-of-being-wild/pigs.jpg";
+import image9 from "../public/images/photography/personal/ways-of-being-wild/ocean.jpg";
 
 export default function HomePage() {
     return (
@@ -25,7 +28,7 @@ export function HomeContent() {
 
     return (
         <>
-            <div id="spacer-large"></div>
+            <div id="spacer-medium"></div>
 
             {/* Carousel - featured photographs */}
             <div className="lightbox" style={{ width: "100%", maxWidth: "1000px", aspectRatio: "16 / 9" }}>
@@ -33,7 +36,7 @@ export function HomeContent() {
                     plugins={[Inline]}
                     // open={true}
                     // close={() => setOpen(false)}
-                    slides={[image4, image2, image3, image1, image5, image6]}
+                    slides={[image6, image7, image8, image9, image3, image5, image1, image4]}
                     styles={{ container: { backgroundColor: "rgba(255, 0, 0, 0)" } }}
                     render={{ slide: NextJsImage }}
                 />

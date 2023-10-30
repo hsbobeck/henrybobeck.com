@@ -48,12 +48,12 @@ export function EventPhotographyContent() {
             height: 5
         },
         {
-            src: "/images/photography/event/hs-nashville-2023/insta5.jpg",
+            src: "/images/photography/event/hs-nashville-2023/insta6.jpg",
             width: 4,
             height: 5
         },
         {
-            src: "/images/photography/event/hs-nashville-2023/insta6.jpg",
+            src: "/images/photography/event/hs-nashville-2023/insta5.jpg",
             width: 4,
             height: 5
         },

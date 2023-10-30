@@ -24,6 +24,24 @@ export function PersonalPhotographyContent() {
             <div className="custom-flex-container">
                 <div id="container" className="text-center justify-center mediumtext font-futura">
                     <div className="padded-item">
+                        <Link href="/photography/personal/ways-of-being-wild">
+                            <a title="Ways of being wild">
+                                <div className="hover-outline selection-outline">
+                                    <div>
+                                        <Image
+                                            priority
+                                            src="/images/photography/personal/ways-of-being-wild/bloodmoon.jpg"
+                                            width={photo_item_width}
+                                            height={photo_item_height}
+                                            alt="Ways of being wild"
+                                        />
+                                    </div>
+                                    <span className="italics">Ways of being wild</span>
+                                </div>
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="padded-item">
                         <Link href="/photography/personal/scenes-to-remind-me-of-home">
                             <a title="Scenes to remind me of home">
                                 <div className="hover-outline selection-outline">
