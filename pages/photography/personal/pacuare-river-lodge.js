@@ -90,7 +90,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/pacuare-river-lodge/8.jpg"
+                        src="/images/photography/personal/pacuare-river-lodge/8.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -99,7 +99,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/pacuare-river-lodge/14.jpg"
+                        src="/images/photography/personal/pacuare-river-lodge/14.jpg"
                         alt=""
                         width='375'
                         height='250'
@@ -108,7 +108,7 @@ export function JournalContent() {
                 <div className="padded-item">
                     <Image
                         priority
-                        src="/images/photography/pacuare-river-lodge/9.jpg"
+                        src="/images/photography/personal/pacuare-river-lodge/9.jpg"
                         alt=""
                         width='375'
                         height='250'
