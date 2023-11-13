@@ -78,6 +78,15 @@ export function JournalContent() {
                 <div className="padded-item-more">
                     <Image
                         priority
+                        src="/images/photography/personal/ways-of-being-wild/reflection.jpg"
+                        alt=""
+                        width='600'
+                        height='400'
+                    />
+                </div>
+                <div className="padded-item-more">
+                    <Image
+                        priority
                         src="/images/photography/personal/ways-of-being-wild/ocean.jpg"
                         alt=""
                         width='600'

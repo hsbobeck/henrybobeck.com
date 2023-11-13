@@ -15,6 +15,7 @@ import image6 from "../public/images/photography/personal/ways-of-being-wild/blo
 import image7 from "../public/images/photography/personal/ways-of-being-wild/candle.jpg";
 import image8 from "../public/images/photography/personal/ways-of-being-wild/pigs.jpg";
 import image9 from "../public/images/photography/personal/ways-of-being-wild/ocean.jpg";
+import image10 from "../public/images/photography/personal/ways-of-being-wild/reflection.jpg";
 
 export default function HomePage() {
     return (
@@ -36,7 +37,7 @@ export function HomeContent() {
                     plugins={[Inline]}
                     // open={true}
                     // close={() => setOpen(false)}
-                    slides={[image6, image7, image8, image9, image3, image5, image1, image4]}
+                    slides={[image6, image7, image8, image10, image9, image3, image5, image1, image4]}
                     styles={{ container: { backgroundColor: "rgba(255, 0, 0, 0)" } }}
                     render={{ slide: NextJsImage }}
                 />
