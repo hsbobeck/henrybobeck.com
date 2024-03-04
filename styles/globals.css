@@ -59,6 +59,10 @@
   padding-left: 0.5rem;
 }
 
+.right-side-padded {
+  padding-right: 0.5rem;
+}
+
 .italics,
 .italic {
   font-style: italic;
@@ -77,6 +81,11 @@
 .mediumtext {
   font-size: 1.05rem;
   line-height: 1.1rem;
+}
+
+.bigtext {
+  font-size: 2.00rem;
+  line-height: 1.7rem;
 }
 
 .weight-bold {
@@ -113,6 +122,15 @@
 
 .z-30 {
   z-index: 30;
+}
+
+.centered {
+  position: fixed;
+  /* or absolute */
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
 
 .flex {
@@ -169,14 +187,14 @@
   /* center items horizontally, in this case */
   align-items: center;
   /* height: auto; */
-  width: 1200px;
+  width: 1230px;
   /* 1200px */
   padding-bottom: 0rem;
 
 }
 
 .padded-item {
-  padding: 0rem .5rem .5rem;
+  padding: 0rem .25rem .25rem;
 }
 
 .padded-item-more {
@@ -404,6 +422,14 @@ a {
 
 .dropdown {
   display: none;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.dark-mode .dropdown {
+  display: none;
+  border: 2px solid white;
+  background-color: black;
 }
 
 .has-dropdown {
@@ -416,11 +442,12 @@ a {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
-  border: 2px solid black;
-  background-color: white;
   position: absolute;
   right: 0px;
   padding: 5px 2px 8px 2px;
+  z-index: 99;
+  width: auto;
+
 }
 
 .lightbox {

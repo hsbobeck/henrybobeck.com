@@ -24,6 +24,24 @@ export function PersonalPhotographyContent() {
             <div className="custom-flex-container">
                 <div id="container" className="text-center justify-center mediumtext font-futura">
                     <div className="padded-item">
+                        <Link href="/photography/personal/the-time-will-come">
+                            <a title="The time will come">
+                                <div className="hover-outline selection-outline">
+                                    <div>
+                                        <Image
+                                            priority
+                                            src="/images/photography/personal/the-time-will-come/1.jpg"
+                                            width={photo_item_width}
+                                            height={photo_item_height}
+                                            alt="The time will come"
+                                        />
+                                    </div>
+                                    <span className="italics">The time will come</span>
+                                </div>
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="padded-item">
                         <Link href="/photography/personal/ways-of-being-wild">
                             <a title="Ways of being wild">
                                 <div className="hover-outline selection-outline">

@@ -6,40 +6,6 @@ import { useRouter } from "next/router";
 
 export default function HomeLayout({ children, disableRevealBot }) {
 
-    /* 
-    media query based on given width value
-    (currently used to update 'photography' to 'photo' on small screens)
-    source: https://github.com/vercel/next.js/discussions/14810
-    */
-    const useMediaQuery = (width) => {
-        const [targetReached, setTargetReached] = useState(false);
-
-        const updateTarget = useCallback((e) => {
-            if (e.matches) {
-                setTargetReached(true);
-            } else {
-                setTargetReached(false);
-            }
-        }, []);
-
-        useEffect(() => {
-            const media = window.matchMedia(`(max-width: ${width}px)`);
-            media.addEventListener("change", updateTarget)
-
-            // Check on mount (callback is not called until a change occurs)
-            if (media.matches) {
-                setTargetReached(true);
-            }
-
-            return () => media.removeEventListener("change", updateTarget);
-        }, []);
-
-        return targetReached;
-    };
-
-    const isBreakpoint = useMediaQuery(385);
-    const photography_nav_label = isBreakpoint ? "photo" : "photography";
-
     /* constant function that, when called, checks and updates scroll-revealed components */
     const handleScroll = () => {
         var reveals_top = document.querySelectorAll(".reveal-top");
@@ -83,9 +49,8 @@ export default function HomeLayout({ children, disableRevealBot }) {
     return (
         <>
             <MetaLayout>
-                <HomeLayoutContent disableRevealBot={disableRevealBot} photographyNavLabel={photography_nav_label}>
+                <HomeLayoutContent disableRevealBot={disableRevealBot}>
                     <script>handleScroll()</script>
-                    <script>useMediaQuery()</script>
                     {children}
                 </HomeLayoutContent>
             </MetaLayout>
@@ -94,7 +59,7 @@ export default function HomeLayout({ children, disableRevealBot }) {
     )
 }
 
-export function HomeLayoutContent({ children, disableRevealBot, photographyNavLabel }) {
+export function HomeLayoutContent({ children, disableRevealBot }) {
 
     const reveals_bot = disableRevealBot ? '' : 'reveal-bot';
 
@@ -102,40 +67,43 @@ export function HomeLayoutContent({ children, disableRevealBot, photographyNavLa
         <div className={styles.container}>
             <main className={styles.main}>
                 {/* top left fixed */}
-                <div className="reveal-top active fixed left-8 top-8 mediumtext font-futura gray z-30">
+                <div className="reveal-top active top-8 bigtext font-futura z-30">
                     <Link href="/">
                         <a className="link-text">henry bobeck</a>
                     </Link>
                 </div>
+
                 {/* top right fixed */}
-                <div className="reveal-top active fixed right-8 top-8 mediumtext font-futura gray z-30">
-                    <Link href="/video">
-                        <a className="link-text both-side-padded">films</a>
+                <div className="reveal-top active top-8 mediumtext font-futura z-30">
+                    <Link href="/work">
+                        <a className="link-text right-side-padded">reel</a>
                     </Link>
-                    <div className="has-dropdown">
-                        <a className="link-text unselectable both-side-padded">{photographyNavLabel}</a>
-                        <div className="dropdown">
-                            <Link href="/photography/personal">
-                                <a className="dropdown-item link-text both-side-padded">personal</a>
-                            </Link>
-                            {/* <Link href="/">
-                                <a className="dropdown-item link-text both-side-padded">portrait</a>
-                            </Link> */}
-                            {/* <Link href="/">
-                                <a className="dropdown-item link-text both-side-padded">hotel</a>
-                            </Link> */}
-                            <Link href="/photography/event">
-                                <a className="dropdown-item link-text both-side-padded">concert/event</a>
-                            </Link>
-                        </div>
-                    </div>
+
                     {/* <Link href="/shop">
                         <a className="link-text both-side-padded">shop</a>
                     </Link> */}
-
                     <Link href="/contact" >
-                        <a className="link-text left-side-padded">contact</a>
+                        <a className="link-text both-side-padded">contact</a>
                     </Link>
+                    <div className="has-dropdown">
+                        <a className="link-text unselectable both-side-padded">extras</a>
+                        <div className="dropdown">
+                            <Link href="/photography/personal">
+                                <a className="dropdown-item link-text both-side-padded">photography</a>
+                            </Link>
+                            {/* <div className="dropdown">
+                                    <Link href="/photography/personal">
+                                        <a className="dropdown-item link-text both-side-padded">personal</a>
+                                    </Link>
+                                    <Link href="/photography/event">
+                                        <a className="dropdown-item link-text both-side-padded">concert/event</a>
+                                    </Link>
+                                </div> */}
+                            <Link href="/films">
+                                <a className="dropdown-item link-text both-side-padded">films</a>
+                            </Link>
+                        </div>
+                    </div>
                 </div>
 
 
@@ -146,15 +114,15 @@ export function HomeLayoutContent({ children, disableRevealBot, photographyNavLa
                 {/* main content end */}
 
                 <div className={`${reveals_bot} ${'fixed active bottom-8 left-0 right-0 h-0 flex text-center justify-center items-center z-30'}`}>
-                    <div className="absolute bottom-0 mediumtext font-futura gray">
-                        <p>
+                    <div className="absolute bottom-0 mediumtext font-futura ">
+                        {/* <p>
                             <a href="https://www.youtube.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer">youtube </a><a className="unselectable">/{' '}</a>
                             <a href="https://www.instagram.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer"> instagram </a><a className="unselectable">/{' '}</a>
                             <a href="https://www.soundcloud.com/henrybobeck" className="link-text" target="_blank" rel="noreferrer"> soundcloud </a><a className="unselectable">/{' '}</a>
                             <a href="https://www.tiktok.com/@henrybobeck" className="link-text" target="_blank" rel="noreferrer"> tiktok</a>
-                        </p>
+                        </p> */}
 
-                        <p className="unselectable">© 2023 Henry Bobeck LLC</p>
+                        <p className="unselectable">© 2024 Henry Bobeck LLC</p>
 
                     </div>
                 </div>
