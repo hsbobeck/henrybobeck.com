@@ -22,7 +22,7 @@ export function WorkContent() {
 
     return (
         <>
-            <p className="text-center centered bigtext font-futura">This section of the website is currently under construction.<br></br>
+            <p className="text-center centered bigtext font-futura">This section is currently under construction.<br></br>
                 Check back soon!</p>
             {/* <div className="custom-flex-container mediumtext font-futura">
                 <div id="container" className="text-center justify-center">
