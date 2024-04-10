@@ -39,7 +39,6 @@ export function HomeContent() {
             {/* In-line featured film */}
             <div id="iframe-container-16-9" className='mb-2'>
                 <iframe id="iframe-responsive" src="https://player.vimeo.com/video/933001703?h=99afd4c595" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                <script src="https://player.vimeo.com/api/player.js"></script>
             </div>
 
 
