@@ -249,6 +249,16 @@
   padding-top: 42.23%;
 }
 
+#iframe-container-16-9 {
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-top: 56.25%;
+}
+
 #iframe-container {
   position: relative;
   overflow: hidden;

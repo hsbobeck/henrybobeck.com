@@ -18,6 +18,10 @@ import image9 from "../public/images/photography/personal/ways-of-being-wild/oce
 import image10 from "../public/images/photography/personal/ways-of-being-wild/reflection.jpg";
 import image11 from "../public/images/photography/personal/the-time-will-come/1.jpg";
 
+export async function getStaticProps() {
+    return { props: { isDark: true } };
+}
+
 export default function HomePage() {
     return (
         <HomeLayout>
@@ -32,6 +36,17 @@ export function HomeContent() {
         <>
             <div id="spacer-medium"></div>
 
+            {/* In-line featured film */}
+            <div id="iframe-container-16-9" className='mb-2'>
+                <iframe id="iframe-responsive" src="https://player.vimeo.com/video/933001703?h=99afd4c595" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                <script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+
+
+
+            <div id="spacer-large"></div>
+            <div id="spacer-large"></div>
+
             {/* Carousel - featured photographs */}
             <div className="lightbox" style={{ width: "100%", maxWidth: "1000px", aspectRatio: "16 / 9" }}>
                 <Lightbox
@@ -44,14 +59,6 @@ export function HomeContent() {
                 />
             </div >
 
-            <div id="spacer-large"></div>
-            <div id="spacer-large"></div>
-
-
-            {/* In-line featured film */}
-            <div id="iframe-container-17-9" className='mb-2'>
-                <iframe id="iframe-responsive" src="https://www.youtube.com/embed/e7rIuaFN5yQ?autoplay=0" frameBorder="0" allowFullScreen></iframe>
-            </div>
 
             <div id="spacer-large"></div>
 

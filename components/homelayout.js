@@ -75,7 +75,7 @@ export function HomeLayoutContent({ children, disableRevealBot }) {
 
                 {/* top right fixed */}
                 <div className="reveal-top active top-8 mediumtext font-futura z-30">
-                    <Link href="/work">
+                    <Link href="/showreel">
                         <a className="link-text right-side-padded">reel</a>
                     </Link>
 

@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import HomeLayout from '../components/homelayout'
 
 export async function getStaticProps() {
-    return { props: { disableScroll: false } };
+    return { props: { disableScroll: false, isDark: false } };
 }
 
 export default function ContactPage() {
