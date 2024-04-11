@@ -27,7 +27,7 @@ export function JournalContent() {
                 <p className="smalltext mono-font prose pb-1">music by Ark Patrol</p>
 
                 <div id="iframe-container" className='mb-2'>
-                    <iframe id="iframe-responsive" src="https://www.youtube.com/embed/htf2DNkLmC0?autoplay=0" frameBorder="0" allowFullScreen></iframe>
+                    <iframe id="iframe-responsive" src="https://www.youtube.com/embed/YokuQI1tMRU?autoplay=0" frameBorder="0" allowFullScreen></iframe>
                 </div>
 
                 <div id="container">
