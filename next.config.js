@@ -13,6 +13,11 @@ const nextConfig = {
         destination: '/photography/personal',
         permanent: true,
       },
+      {
+        source: '/showreel',
+        destination: '/reel',
+        permanent: true,
+      },
     ]
   },
 }

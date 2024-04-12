@@ -6,15 +6,15 @@ export async function getStaticProps() {
     return { props: { isDark: true } };
 }
 
-export default function ShowreelPage() {
+export default function ReelPage() {
     return (
         <HomeLayout>
-            {ShowreelContent()}
+            {ReelContent()}
         </HomeLayout>
     )
 }
 
-export function ShowreelContent() {
+export function ReelContent() {
 
     return (
         <>
