@@ -68,7 +68,7 @@ export function FilmsContent() {
                                     <div>
                                         <Image
                                             priority
-                                            src="/images/video/wandering-italy/wandering-italy.jpg"
+                                            src="/images/video/wandering-italy/newstill_2-thumb.jpg"
                                             width={video_item_width}
                                             height={video_item_height}
                                             alt="Wandering Italy"
@@ -86,7 +86,7 @@ export function FilmsContent() {
                                     <div>
                                         <Image
                                             priority
-                                            src="/images/video/feel-yourself-breathe/still_1.2.1.jpg"
+                                            src="/images/video/feel-yourself-breathe/still_3-thumb.jpg"
                                             width={video_item_width}
                                             height={video_item_height}
                                             alt="FEEL YOURSELF BREATHE"
@@ -122,7 +122,7 @@ export function FilmsContent() {
                                     <div>
                                         <Image
                                             priority
-                                            src="/images/video/habitat-sartorial-1/hs1.jpg"
+                                            src="/images/video/habitat-sartorial-1/7.jpg"
                                             width={video_item_width}
                                             height={video_item_height}
                                             alt="Habitat Sartorial 1"

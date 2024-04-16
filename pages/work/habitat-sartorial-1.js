@@ -18,11 +18,11 @@ export function JournalContent() {
         <>
             <div>
                 <p className="smalltext mono-font prose mt-0">Habitat Sartorial Music Summer 2021</p>
-                <p className="smalltext mono-font prose">direction, cinematography and editing by henry bobeck</p>
+                <p className="smalltext mono-font prose">direction, cinematography, editing and color by henry bobeck</p>
                 <p className="smalltext mono-font prose pb-1">music by Arboretum</p>
 
                 <div id="iframe-container" className='mb-2'>
-                    <iframe id="iframe-responsive" src="https://www.youtube.com/embed/VrhMxRhaAH8?autoplay=0" frameBorder="0" allowFullScreen></iframe>
+                    <iframe id="iframe-responsive" src="https://www.youtube.com/embed/7WhOpvHihsc?autoplay=0" frameBorder="0" allowFullScreen></iframe>
                 </div>
 
                 <div id="container">
