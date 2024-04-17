@@ -53,8 +53,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/the-time-will-come/1.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className='padded-item-more'>
@@ -62,8 +62,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/the-time-will-come/2.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -71,8 +71,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/the-time-will-come/3.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -80,8 +80,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/the-time-will-come/4.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -89,8 +89,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/the-time-will-come/5.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -98,8 +98,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/the-time-will-come/6.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -107,8 +107,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/the-time-will-come/7.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
             </div>

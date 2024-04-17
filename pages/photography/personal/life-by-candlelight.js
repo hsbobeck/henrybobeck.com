@@ -22,14 +22,14 @@ export function JournalContent() {
                 <p className="smalltext mono-font prose pb-1">Kodak Gold 200</p>
             </div>
             {/* Highlight photos */}
-            <div id="container" className="journal-container">
+            <div id="journal-grid-3col" className="journal-container">
                 <div className='padded-item'>
                     <Image
                         priority
                         src="/images/photography/personal/life-by-candlelight/1.jpg"
                         alt=""
-                        width='375'
-                        height='250'
+                        width='1002'
+                        height='688'
                     />
                 </div>
                 <div className='padded-item'>
@@ -37,8 +37,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/life-by-candlelight/6.jpg"
                         alt=""
-                        width='375'
-                        height='250'
+                        width='1002'
+                        height='688'
                     />
                 </div>
                 {/* Remaining photos */}
@@ -47,8 +47,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/life-by-candlelight/7.jpg"
                         alt=""
-                        width='375'
-                        height='250'
+                        width='1002'
+                        height='688'
                     />
                 </div>
                 <div className="padded-item">
@@ -56,8 +56,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/life-by-candlelight/3.jpg"
                         alt=""
-                        width='375'
-                        height='250'
+                        width='1002'
+                        height='688'
                     />
                 </div>
                 <div className="padded-item">
@@ -65,8 +65,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/life-by-candlelight/2.jpg"
                         alt=""
-                        width='375'
-                        height='250'
+                        width='1002'
+                        height='688'
                     />
                 </div>
                 <div className="padded-item">
@@ -74,8 +74,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/life-by-candlelight/8.jpg"
                         alt=""
-                        width='375'
-                        height='250'
+                        width='1002'
+                        height='688'
                     />
                 </div>
                 <div className="padded-item">
@@ -83,8 +83,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/life-by-candlelight/5.jpg"
                         alt=""
-                        width='375'
-                        height='250'
+                        width='1002'
+                        height='688'
                     />
                 </div>
                 <div className="padded-item">
@@ -92,8 +92,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/life-by-candlelight/10.jpg"
                         alt=""
-                        width='375'
-                        height='250'
+                        width='1002'
+                        height='688'
                     />
                 </div>
                 <div className="padded-item">
@@ -101,8 +101,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/life-by-candlelight/9.jpg"
                         alt=""
-                        width='375'
-                        height='250'
+                        width='1002'
+                        height='688'
                     />
                 </div>
             </div>

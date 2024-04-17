@@ -17,22 +17,24 @@ export default function FilmsPage() {
 export function FilmsContent() {
 
     const video_item_ratio = 16 / 9;
-    const video_item_width = 400;
+    const video_item_width = 800;
     const video_item_height = video_item_width / video_item_ratio;
 
     return (
         <>
-            <div className="custom-flex-container mediumtext font-futura">
-                <div id="container" className="text-center justify-center">
+            <div id="spacer-small" className="mobile-hidden"></div>
 
-                    <div className="padded-item">
+            <div className="custom-flex-container mediumtext font-futura">
+                <div id="container-grid-2col" className="text-center justify-center">
+
+                    <div className="padded-item-new">
                         <Link href="/films/visit-bali">
                             <a title="Visit Bali">
                                 <div className="hover-outline selection-outline">
                                     <div>
                                         <Image
                                             priority
-                                            src="/images/video/visit-bali/thumbwithtitle.jpg"
+                                            src="/images/video/visit-bali/09-thumb.jpg"
                                             width={video_item_width}
                                             height={video_item_height}
                                             alt="Lost"
@@ -43,7 +45,7 @@ export function FilmsContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    <div className="padded-item-new">
                         <Link href="/films/wandering-connemara">
                             <a title="Wandering Connemara">
                                 <div className="hover-outline selection-outline">
@@ -61,7 +63,7 @@ export function FilmsContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    <div className="padded-item-new">
                         <Link href="/films/wandering-italy">
                             <a title="Wandering Italy">
                                 <div className="hover-outline selection-outline">
@@ -79,7 +81,7 @@ export function FilmsContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    <div className="padded-item-new">
                         <Link href="/films/feel-yourself-breathe">
                             <a title="FEEL YOURSELF BREATHE">
                                 <div className="hover-outline selection-outline">
@@ -97,7 +99,7 @@ export function FilmsContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    {/* <div className="padded-item-new">
                         <Link href="/films/habitat-sartorial-2">
                             <a title="habitat sartorial f/w classics 2">
                                 <div className="hover-outline selection-outline">
@@ -114,8 +116,8 @@ export function FilmsContent() {
                                 </div>
                             </a>
                         </Link>
-                    </div>
-                    <div className="padded-item">
+                    </div> */}
+                    <div className="padded-item-new">
                         <Link href="/films/habitat-sartorial-1">
                             <a title="habitat sartorial music summer 2021">
                                 <div className="hover-outline selection-outline">

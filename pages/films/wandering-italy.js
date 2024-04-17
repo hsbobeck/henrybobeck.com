@@ -39,6 +39,8 @@ export function JournalContent() {
                     <iframe id="iframe-responsive" src="https://www.youtube.com/embed/a_GaRctIOC8?autoplay=0" frameBorder="0" allowFullScreen></iframe>
                 </div>
 
+                <div id="spacer-small" />
+
                 <div id="container">
                     <div className="padded-item">
                         <Image

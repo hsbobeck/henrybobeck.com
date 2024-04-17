@@ -15,15 +15,15 @@ export default function PersonalPhotographyPage() {
 export function PersonalPhotographyContent() {
 
     const photo_item_ratio = 3 / 2;
-    const photo_item_width = 375;
+    const photo_item_width = 800;
     const photo_item_height = photo_item_width / photo_item_ratio;
 
     return (
         <>
             <div id="spacer-small" className="mobile-hidden"></div>
             <div className="custom-flex-container">
-                <div id="container" className="text-center justify-center mediumtext font-futura">
-                    <div className="padded-item">
+                <div id="container-grid-2col" className="text-center justify-center mediumtext font-futura">
+                    <div className="padded-item-new">
                         <Link href="/photography/personal/the-time-will-come">
                             <a title="The time will come">
                                 <div className="hover-outline selection-outline">
@@ -41,7 +41,7 @@ export function PersonalPhotographyContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    <div className="padded-item-new">
                         <Link href="/photography/personal/ways-of-being-wild">
                             <a title="Ways of being wild">
                                 <div className="hover-outline selection-outline">
@@ -59,7 +59,7 @@ export function PersonalPhotographyContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    <div className="padded-item-new">
                         <Link href="/photography/personal/scenes-to-remind-me-of-home">
                             <a title="Scenes to remind me of home">
                                 <div className="hover-outline selection-outline">
@@ -77,7 +77,7 @@ export function PersonalPhotographyContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    <div className="padded-item-new">
                         <Link href="/photography/personal/as-they-remember-us">
                             <a title="As they remember us">
                                 <div className="hover-outline selection-outline">
@@ -95,7 +95,7 @@ export function PersonalPhotographyContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    <div className="padded-item-new">
                         <Link href="/photography/personal/somewhere-in-memory">
                             <a title="Somewhere in memory">
                                 <div className="hover-outline selection-outline">
@@ -113,7 +113,7 @@ export function PersonalPhotographyContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    <div className="padded-item-new">
                         <Link href="/photography/personal/in-wishes-we-hide-our-pain">
                             <a title="In wishes we hide our pain">
                                 <div className="hover-outline selection-outline">
@@ -131,7 +131,7 @@ export function PersonalPhotographyContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    <div className="padded-item-new">
                         <Link href="/photography/personal/arboretum-studio-film">
                             <a title="Arboretum studio film">
                                 <div className="hover-outline selection-outline">
@@ -149,7 +149,7 @@ export function PersonalPhotographyContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    <div className="padded-item-new">
                         <Link href="/photography/personal/lollapalooza-in-motion">
                             <a title="Lollapalooza in motion">
                                 <div className="hover-outline selection-outline">
@@ -167,7 +167,7 @@ export function PersonalPhotographyContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    <div className="padded-item-new">
                         <Link href="/photography/personal/pacuare-river-lodge">
                             <a title="Portrait of Pacuare River Lodge">
                                 <div className="hover-outline selection-outline">
@@ -185,7 +185,7 @@ export function PersonalPhotographyContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    <div className="padded-item-new">
                         <Link href="/photography/personal/life-by-candlelight">
                             <a title="Life by candlelight">
                                 <div className="hover-outline selection-outline">
@@ -203,7 +203,7 @@ export function PersonalPhotographyContent() {
                             </a>
                         </Link>
                     </div>
-                    <div className="padded-item">
+                    <div className="padded-item-new">
                         <Link href="/photography/personal/94-2-21">
                             <a title="94 2 21">
                                 <div className="hover-outline selection-outline">

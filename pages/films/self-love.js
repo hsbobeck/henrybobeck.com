@@ -36,6 +36,8 @@ export function JournalContent() {
                     <iframe id="iframe-responsive" src="https://player.vimeo.com/video/549357174?h=9cfd3b6d8f" frameBorder="0" allowFullScreen></iframe>
                 </div>
 
+                <div id="spacer-small" />
+
                 {/* <div id="container">
                     <div className="padded-item">
                         <Image

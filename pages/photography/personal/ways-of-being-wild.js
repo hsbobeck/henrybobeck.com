@@ -53,8 +53,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/ways-of-being-wild/bloodmoon.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className='padded-item-more'>
@@ -62,8 +62,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/ways-of-being-wild/candle.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -71,8 +71,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/ways-of-being-wild/pigs.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -80,8 +80,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/ways-of-being-wild/reflection.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -89,8 +89,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/ways-of-being-wild/ocean.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
             </div>

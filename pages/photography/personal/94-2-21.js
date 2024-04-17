@@ -28,8 +28,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/94-2-21/1.jpg"
                         alt=""
-                        width='450'
-                        height='300'
+                        width='1002'
+                        height='688'
                     />
                 </div>
                 <div className='padded-item'>
@@ -37,8 +37,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/94-2-21/2.jpg"
                         alt=""
-                        width='450'
-                        height='300'
+                        width='1002'
+                        height='688'
                     />
                 </div>
             </div>

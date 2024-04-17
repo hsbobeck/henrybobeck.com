@@ -32,14 +32,14 @@ export function JournalContent() {
             </div>
             {/* <Gallery photos={photos} margin={9} targetRowHeight={500} /> */}
 
-            <div className="journal-container">
+            <div id="container">
                 <div className="padded-item-more">
                     <Image
                         priority
                         src="/images/photography/personal/as-they-remember-us/1.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='688'
                     />
                 </div>
             </div>

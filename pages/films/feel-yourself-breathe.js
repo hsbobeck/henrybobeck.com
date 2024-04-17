@@ -38,6 +38,8 @@ export function JournalContent() {
                     <iframe id="iframe-responsive" src="https://www.youtube.com/embed/ms3zDK4ekcc?autoplay=0" frameBorder="0" allowFullScreen></iframe>
                 </div>
 
+                <div id="spacer-small" />
+
                 <div id="container">
                     <div className="padded-item">
                         <Image

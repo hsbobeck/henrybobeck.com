@@ -53,8 +53,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/in-wishes-we-hide-our-pain/horiz3.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='688'
                     />
                 </div>
                 <div className='padded-item-more'>
@@ -62,8 +62,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/in-wishes-we-hide-our-pain/horiz2.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='688'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -71,8 +71,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/in-wishes-we-hide-our-pain/horiz1.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='688'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -80,8 +80,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/in-wishes-we-hide-our-pain/horiz4.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='688'
                     />
                 </div>
 

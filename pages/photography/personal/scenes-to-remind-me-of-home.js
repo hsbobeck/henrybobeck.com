@@ -53,8 +53,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/scenes-to-remind-me-of-home/1-2.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className='padded-item-more'>
@@ -62,8 +62,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/scenes-to-remind-me-of-home/2.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -71,8 +71,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/scenes-to-remind-me-of-home/3.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -80,8 +80,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/scenes-to-remind-me-of-home/4.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -89,8 +89,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/scenes-to-remind-me-of-home/5.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -98,8 +98,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/scenes-to-remind-me-of-home/6.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -107,8 +107,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/scenes-to-remind-me-of-home/7.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -116,8 +116,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/scenes-to-remind-me-of-home/8.jpg"
                         alt=""
-                        width='600'
-                        height='750'
+                        width='1002'
+                        height='1252'
                     />
                 </div>
             </div>

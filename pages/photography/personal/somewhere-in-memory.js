@@ -53,8 +53,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/somewhere-in-memory/1.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className='padded-item-more'>
@@ -62,8 +62,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/somewhere-in-memory/2.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -71,8 +71,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/somewhere-in-memory/3.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
                 <div className="padded-item-more">
@@ -80,8 +80,8 @@ export function JournalContent() {
                         priority
                         src="/images/photography/personal/somewhere-in-memory/4.jpg"
                         alt=""
-                        width='600'
-                        height='400'
+                        width='1002'
+                        height='668'
                     />
                 </div>
             </div>
