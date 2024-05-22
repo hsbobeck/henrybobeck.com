@@ -83,6 +83,11 @@
   line-height: 1.1rem;
 }
 
+.largetext {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
 .bigtext {
   font-size: 2.00rem;
   line-height: 1.7rem;
