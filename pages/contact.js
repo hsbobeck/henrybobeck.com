@@ -32,7 +32,7 @@ export function ContactContent() {
                     </div>
                     <div className="padded-item paragraph font-futura mediumtext">
                         <a className="weight-bold largetext">Let&apos;s bring out the emotions you want to communicate in your film.</a>
-                        <p>I&apos;m Henry Bobeck, a colorist from the American midwest. I&apos;m obsessed with the power of images to emotionally connect to an audience, and my goal is to help you shape yours in order to tell powerful stories. I&apos;m available for color grading sessions, show LUT design, and look development work worldwide and remotely.</p>
+                        <p>I&apos;m Henry Bobeck, a colorist from the American midwest. I&apos;m obsessed with the power of images to emotionally connect to an audience, and I love to help you shape yours in order to tell powerful stories. I&apos;m available for color grading sessions, show LUT design, and look development work worldwide and remotely.</p>
                         <p>Let&apos;s get in touch:</p>
                         <p>Email / <a className="link-text weight-bold" href="mailto:contact@henrybobeck.com" target="_blank" rel="noreferrer">contact@henrybobeck.com</a><br />
                             Instagram / <a className="link-text weight-bold" href="https://instagram.com/henrybobeckcolor" target="_blank" rel="noreferrer">@henrybobeckcolor</a><br /></p>

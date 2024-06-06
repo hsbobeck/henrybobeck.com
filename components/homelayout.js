@@ -69,8 +69,9 @@ export function HomeLayoutContent({ children, disableRevealBot }) {
                 {/* top left fixed */}
                 <div className="reveal-top active top-8 bigtext font-futura z-30">
                     <Link href="/">
-                        <a className="link-text">henry bobeck</a>
+                        <a className="link-text">henry bobeck </a>
                     </Link>
+                    <a className="largetext unselectable lightgray">colorist</a>
                 </div>
 
                 {/* top right fixed */}
